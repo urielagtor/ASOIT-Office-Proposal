@@ -299,22 +299,19 @@ with tab2:
     )
     st.plotly_chart(fig_heat, use_container_width=True)
 
-    # -----------------------------
-    # Gantt Chart (Timeline)
-    # -----------------------------
-    # -----------------------------
+      # -----------------------------
     # Gantt Chart (Timeline)
     # -----------------------------
     st.subheader("Reservations Gantt (Time × Room)")
 
-    # Build a base dataset for the Gantt picker:
-    # - respects Location/Department filters
-    # - DOES NOT depend on the dashboard date range, so you can pick past days
+    # Build a base dataset for the Gantt:
+    # respects Location/Department filters
+    # does NOT depend on dashboard date range
     gantt_base = df.copy()
 
-    if loc_filter:
+    if loc_filter and "Location" in gantt_base.columns:
         gantt_base = gantt_base[gantt_base["Location"].isin(loc_filter)]
-    if dept_filter:
+    if dept_filter and "Department" in gantt_base.columns:
         gantt_base = gantt_base[gantt_base["Department"].isin(dept_filter)]
 
     gantt_days = (
@@ -331,16 +328,15 @@ with tab2:
         min_gantt_day = gantt_days.min()
         max_gantt_day = gantt_days.max()
 
-        # Calendar dropdown picker (single day)
         today = datetime.date.today()
 
-        # Default = today if it's in range, otherwise clamp to min/max
+        # Default = today if in bounds; else clamp to min/max
         default_day = today
         if today < min_gantt_day:
             default_day = min_gantt_day
         elif today > max_gantt_day:
             default_day = max_gantt_day
-        
+
         picked_day = st.date_input(
             "Pick a single day for the Gantt chart",
             value=default_day,
@@ -349,18 +345,11 @@ with tab2:
             key="gantt_day_picker"
         )
 
-# If user picks a day with no events, snap to nearest available day
-if picked_day not in set(gantt_days):
-    gantt_days_sorted = sorted(gantt_days)
-    picked_day = min(gantt_days_sorted, key=lambda d: abs(d - picked_day))
-    st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
-
-        # If user picks a day that has no events, snap to nearest available day
-    if picked_day not in set(gantt_days):
-        gantt_days_sorted = sorted(gantt_days)
-        # nearest date by absolute distance
-        picked_day = min(gantt_days_sorted, key=lambda d: abs(d - picked_day))
-        st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
+        # If chosen day has no events, snap to nearest day that does
+        if picked_day not in set(gantt_days):
+            gantt_days_sorted = sorted(gantt_days)
+            picked_day = min(gantt_days_sorted, key=lambda d: abs(d - picked_day))
+            st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
 
         gantt_src = gantt_base[
             gantt_base["EventDate"].dt.date == picked_day
