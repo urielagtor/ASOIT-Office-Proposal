@@ -302,6 +302,51 @@ with tab2:
     # Gantt Chart (Timeline)
     # -----------------------------
     st.subheader("Reservations Gantt (Time × Room)")
+st.subheader("Reservations Gantt (Time × Room)")
+
+# Day-only filter just for the Gantt chart
+gantt_days = (
+    filtered["EventDate"]
+    .dropna()
+    .dt.date
+    .sort_values()
+    .unique()
+)
+
+if len(gantt_days) == 0:
+    st.info("No dates available in the current filters.")
+else:
+    gantt_day = st.selectbox(
+        "Pick a single day for the Gantt chart",
+        options=list(gantt_days),
+        index=0
+    )
+
+    gantt_src = filtered[
+        filtered["EventDate"].dt.date == gantt_day
+    ].dropna(subset=["Location", "StartDT", "EndDT"]).copy()
+
+    if gantt_src.empty:
+        st.info("No reservations with valid Start/End times for that day.")
+    else:
+        color_field_options = [c for c in ["Department", "Status"] if c in gantt_src.columns]
+        color_field = st.selectbox("Color bars by", options=color_field_options or ["(none)"], key="gantt_color")
+
+        fig_gantt = px.timeline(
+            gantt_src.sort_values(["Location", "StartDT"]),
+            x_start="StartDT",
+            x_end="EndDT",
+            y="Location",
+            color=None if color_field == "(none)" else color_field,
+            hover_data=["Title", "Department", "Status", "StartDT", "EndDT"],
+            title=f"Reservation Timeline by Room — {gantt_day}"
+        )
+
+        fig_gantt.update_yaxes(autorange="reversed", title="Room / Location")
+        fig_gantt.update_xaxes(title="Time")
+        fig_gantt.update_layout(margin=dict(l=10, r=10, t=50, b=10))
+
+        st.plotly_chart(fig_gantt, use_container_width=True)
 
     gantt_src = filtered.dropna(subset=["Location", "StartDT", "EndDT"]).copy()
 
