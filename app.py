@@ -298,14 +298,16 @@ with tab2:
     )
     st.plotly_chart(fig_heat, use_container_width=True)
 
-        st.subheader("Reservations Gantt (Time × Room)")
+    # -----------------------------
+    # Gantt Chart (Timeline)
+    # -----------------------------
+    st.subheader("Reservations Gantt (Time × Room)")
 
     gantt_src = filtered.dropna(subset=["Location", "StartDT", "EndDT"]).copy()
 
     if gantt_src.empty:
         st.info("No reservations with valid StartTime and EndTime in the current filters.")
     else:
-        # Optional: let user pick how bars are colored
         color_field_options = [c for c in ["Department", "Status"] if c in gantt_src.columns]
         color_field = st.selectbox("Color bars by", options=color_field_options or ["(none)"])
 
@@ -315,25 +317,16 @@ with tab2:
             x_end="EndDT",
             y="Location",
             color=None if color_field == "(none)" else color_field,
-            hover_data={
-                "Title": True if "Title" in gantt_src.columns else False,
-                "Department": True if "Department" in gantt_src.columns else False,
-                "Status": True if "Status" in gantt_src.columns else False,
-                "StartDT": True,
-                "EndDT": True,
-            },
+            hover_data=["Title", "Department", "Status", "StartDT", "EndDT"],
             title="Reservation Timeline by Room"
         )
 
-        # Make it read like a schedule
         fig_gantt.update_yaxes(autorange="reversed", title="Room / Location")
         fig_gantt.update_xaxes(title="Time")
-        fig_gantt.update_layout(
-            legend_title_text=color_field if color_field != "(none)" else "",
-            margin=dict(l=10, r=10, t=50, b=10),
-        )
+        fig_gantt.update_layout(margin=dict(l=10, r=10, t=50, b=10))
 
         st.plotly_chart(fig_gantt, use_container_width=True)
+
 
 
 with tab3:
