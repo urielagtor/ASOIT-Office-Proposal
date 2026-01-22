@@ -355,11 +355,11 @@ if picked_day not in set(gantt_days):
     st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
 
         # If user picks a day that has no events, snap to nearest available day
-        if picked_day not in set(gantt_days):
-            gantt_days_sorted = sorted(gantt_days)
-            # nearest date by absolute distance
-            picked_day = min(gantt_days_sorted, key=lambda d: abs(d - picked_day))
-            st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
+    if picked_day not in set(gantt_days):
+        gantt_days_sorted = sorted(gantt_days)
+        # nearest date by absolute distance
+        picked_day = min(gantt_days_sorted, key=lambda d: abs(d - picked_day))
+        st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
 
         gantt_src = gantt_base[
             gantt_base["EventDate"].dt.date == picked_day
