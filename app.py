@@ -301,76 +301,69 @@ with tab2:
     # -----------------------------
     # Gantt Chart (Timeline)
     # -----------------------------
+    # -----------------------------
+    # Gantt Chart (Timeline)
+    # -----------------------------
     st.subheader("Reservations Gantt (Time × Room)")
-st.subheader("Reservations Gantt (Time × Room)")
 
-# Day-only filter just for the Gantt chart
-gantt_days = (
-    filtered["EventDate"]
-    .dropna()
-    .dt.date
-    .sort_values()
-    .unique()
-)
+    # Build a base dataset for the Gantt picker:
+    # - respects Location/Department filters
+    # - DOES NOT depend on the dashboard date range, so you can pick past days
+    gantt_base = df.copy()
 
-if len(gantt_days) == 0:
-    st.info("No dates available in the current filters.")
-else:
-    gantt_day = st.selectbox(
-        "Pick a single day for the Gantt chart",
-        options=list(gantt_days),
-        index=0
+    if loc_filter:
+        gantt_base = gantt_base[gantt_base["Location"].isin(loc_filter)]
+    if dept_filter:
+        gantt_base = gantt_base[gantt_base["Department"].isin(dept_filter)]
+
+    gantt_days = (
+        gantt_base["EventDate"]
+        .dropna()
+        .dt.date
+        .sort_values()
+        .unique()
     )
 
-    gantt_src = filtered[
-        filtered["EventDate"].dt.date == gantt_day
-    ].dropna(subset=["Location", "StartDT", "EndDT"]).copy()
-
-    if gantt_src.empty:
-        st.info("No reservations with valid Start/End times for that day.")
+    if len(gantt_days) == 0:
+        st.info("No dates available for the current Location/Department filters.")
     else:
-        color_field_options = [c for c in ["Department", "Status"] if c in gantt_src.columns]
-        color_field = st.selectbox("Color bars by", options=color_field_options or ["(none)"], key="gantt_color")
-
-        fig_gantt = px.timeline(
-            gantt_src.sort_values(["Location", "StartDT"]),
-            x_start="StartDT",
-            x_end="EndDT",
-            y="Location",
-            color=None if color_field == "(none)" else color_field,
-            hover_data=["Title", "Department", "Status", "StartDT", "EndDT"],
-            title=f"Reservation Timeline by Room — {gantt_day}"
+        gantt_day = st.selectbox(
+            "Pick a single day for the Gantt chart",
+            options=list(gantt_days),
+            index=len(gantt_days) - 1,   # defaults to the most recent day available
+            key="gantt_day"
         )
 
-        fig_gantt.update_yaxes(autorange="reversed", title="Room / Location")
-        fig_gantt.update_xaxes(title="Time")
-        fig_gantt.update_layout(margin=dict(l=10, r=10, t=50, b=10))
+        gantt_src = gantt_base[
+            gantt_base["EventDate"].dt.date == gantt_day
+        ].dropna(subset=["Location", "StartDT", "EndDT"]).copy()
 
-        st.plotly_chart(fig_gantt, use_container_width=True)
+        if gantt_src.empty:
+            st.info("No reservations with valid Start/End times for that day.")
+        else:
+            color_field_options = [c for c in ["Department", "Status"] if c in gantt_src.columns]
+            color_field = st.selectbox(
+                "Color bars by",
+                options=color_field_options or ["(none)"],
+                key="gantt_color"
+            )
 
-    gantt_src = filtered.dropna(subset=["Location", "StartDT", "EndDT"]).copy()
+            fig_gantt = px.timeline(
+                gantt_src.sort_values(["Location", "StartDT"]),
+                x_start="StartDT",
+                x_end="EndDT",
+                y="Location",
+                color=None if color_field == "(none)" else color_field,
+                hover_data=["Title", "Department", "Status", "StartDT", "EndDT"],
+                title=f"Reservation Timeline by Room — {gantt_day}"
+            )
 
-    if gantt_src.empty:
-        st.info("No reservations with valid StartTime and EndTime in the current filters.")
-    else:
-        color_field_options = [c for c in ["Department", "Status"] if c in gantt_src.columns]
-        color_field = st.selectbox("Color bars by", options=color_field_options or ["(none)"])
+            fig_gantt.update_yaxes(autorange="reversed", title="Room / Location")
+            fig_gantt.update_xaxes(title="Time")
+            fig_gantt.update_layout(margin=dict(l=10, r=10, t=50, b=10))
 
-        fig_gantt = px.timeline(
-            gantt_src.sort_values(["Location", "StartDT"]),
-            x_start="StartDT",
-            x_end="EndDT",
-            y="Location",
-            color=None if color_field == "(none)" else color_field,
-            hover_data=["Title", "Department", "Status", "StartDT", "EndDT"],
-            title="Reservation Timeline by Room"
-        )
+            st.plotly_chart(fig_gantt, use_container_width=True)
 
-        fig_gantt.update_yaxes(autorange="reversed", title="Room / Location")
-        fig_gantt.update_xaxes(title="Time")
-        fig_gantt.update_layout(margin=dict(l=10, r=10, t=50, b=10))
-
-        st.plotly_chart(fig_gantt, use_container_width=True)
 
 
 
