@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
 # -----------------------------
 # Oregon Tech Colors (Official)
 # -----------------------------
@@ -132,13 +133,18 @@ st.divider()
 # -----------------------------
 # Helper: Top N + "Other"
 # -----------------------------
-def top_n_with_other(series: pd.Series, top_n: int = 8):
-    vc = series.value_counts(dropna=True)
+def top_n_with_other(series: pd.Series, top_n: int = 8) -> pd.DataFrame:
+    vc = series.dropna().astype(str).value_counts()
     top = vc.head(top_n)
-    other_count = vc.iloc[top_n:].sum()
-    if other_count > 0:
-        top["Other"] = other_count
-    return top.reset_index().rename(columns={"index": "Category", 0: "Count"})
+    other = vc.iloc[top_n:].sum()
+
+    out = top.reset_index()
+    out.columns = ["Category", "Count"]
+
+    if other > 0:
+        out = pd.concat([out, pd.DataFrame([{"Category": "Other", "Count": int(other)}])], ignore_index=True)
+
+    return out
 
 # -----------------------------
 # Charts
