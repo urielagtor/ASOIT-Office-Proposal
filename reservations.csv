@@ -1,435 +1,519 @@
-EventId,Title,Location,Department,EventDate,StartTime,EndTime,IsAllDayEvent,IsTimedEvent,EventType,ContactName,ContactEmail,ContactPhone,IsReOccurring,IsOnMultipleCalendars,Status,EventTypeName
-24583,SALT,College Union Sunset,Student Affairs,9/3/2025,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24597,RBC Discussion,College Union Sunset,Student Affairs,9/4/2025,9:00AM,10:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24593,Student Health Training,College Union Mt. McLoughlin,Campus Safety,9/9/2025,8:00AM,3:00PM,FALSE,TRUE,Training,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,FALSE,FALSE,Active,Training
-24625,Housing Contract Discussion,College Union Sunset,Business Affairs,9/9/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Celia Green,celia.green@oit.edu,5-1115,FALSE,FALSE,Active,Meeting
-24260,Labor Management Committee SEIU,College Union Mt. McLoughlin,Human Resources,9/10/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Sandi Hanan,Sandi.hanan@oit.edu,5-1074,FALSE,FALSE,Active,Meeting
-24593,Student Health Training,College Union Mt. McLoughlin,Campus Safety,9/12/2025,8:00AM,3:00PM,FALSE,TRUE,Training,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,FALSE,FALSE,Active,Training
-24572,Sodexo Orientation and Training,College Union Sunset,Sodexo,9/12/2025,9:00AM,3:00PM,FALSE,TRUE,Training,Danielle Nelson,danielle.nelson@sodexo.com,541-885-1071,FALSE,FALSE,Active,Training
-24395,RA Training,College Union Mt. McLoughlin,Residence Life & Housing,9/16/2025,8:00AM,10:00PM,FALSE,TRUE,,Matt Young,matt.young@oit.edu,541-885-0146,FALSE,FALSE,Active,(none)
-24395,RA Training,College Union Sunset,Residence Life & Housing,9/17/2025,8:00AM,10:00PM,FALSE,TRUE,,Matt Young,matt.young@oit.edu,541-885-0146,FALSE,FALSE,Active,(none)
-24583,SALT,College Union Mt. McLoughlin,Student Affairs,9/17/2025,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24395,RA Training,College Union Sunset,Residence Life & Housing,9/18/2025,8:00AM,10:00PM,FALSE,TRUE,,Matt Young,matt.young@oit.edu,541-885-0146,FALSE,FALSE,Active,(none)
-24623,SEIU Meeting,College Union Mt. McLoughlin,Facilities Services,9/18/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,Darryn.stevens@oit.edu,5-1690,FALSE,FALSE,Active,Meeting
-24608,CU Student Manager Training,College Union Sunset,College Union,9/30/2025,1:30PM,4:30PM,FALSE,TRUE,Training,Jennifer Sherry,jennifer.sherry@oit.edu,5-1030,FALSE,FALSE,Active,Training
-24567,SST,College Union Mt. McLoughlin,Student Affairs,10/2/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24656,ASOIT Meeting,College Union Mt. McLoughlin,ASOIT,10/2/2025,3:30PM,4:30PM,FALSE,TRUE,,Uriel Aguilar Torres,uriel.aguilartorres@oit.edu,5-1390,FALSE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,10/3/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,10/5/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24678,Team Meeting,College Union Sunset,Athletics,10/6/2025,4:00PM,5:00PM,FALSE,TRUE,,Tom Moore,tom.moore@oit.edu,5-1620,FALSE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,10/6/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24651,Allyship Training,College Union Sunset,Student Involvement and Belonging SIB,10/7/2025,12:00PM,1:15PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
-24590,Retention Committee,College Union Sunset,Strategic Enrollment Management,10/7/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24576,SALT,College Union Sunset,Student Affairs,10/8/2025,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24260,Labor Management Committee SEIU,College Union Mt. McLoughlin,Human Resources,10/8/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Sandi Hanan,Sandi.hanan@oit.edu,5-1074,FALSE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,10/8/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,10/9/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24653,Game Night,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/9/2025,5:00PM,10:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,TRUE,FALSE,Active,(none)
-24644,Student Health Training,College Union Mt. McLoughlin,Campus Safety,10/10/2025,8:00AM,12:00PM,FALSE,TRUE,Training,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,FALSE,FALSE,Active,Training
-24692,Admissions Folder Assembly,College Union Sunset,Admissions,10/10/2025,1:00PM,3:00PM,FALSE,TRUE,Meeting,Lupe Preciado,lupe.preciado@oit.edu,15418515488,FALSE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,10/10/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,10/10/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24694,Vollyball Meeting,College Union Mt. McLoughlin,Athletics,10/11/2025,11:30AM,2:00PM,FALSE,TRUE,Meeting,Alexis Garrison,Alexis.garrison@oit.edu,5-1620,FALSE,FALSE,Active,Meeting
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,10/12/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24674,Sodexo Employee Orientation,College Union Mt. McLoughlin,Sodexo,10/12/2025,1:00PM,5:00PM,FALSE,TRUE,Meeting,Danielle Nelson,danielle.nelson@sodexo.com,541-885-1071,FALSE,FALSE,Active,Meeting
-24637,Wellbeing/ HR Meet and Greet,College Union Sunset,Center for Wellbeing,10/13/2025,12:00PM,2:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24557,Christian Fellowship,College Union Sunset,Christian Fellowship,10/13/2025,6:00PM,9:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,10/13/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24698,Bio Health Club Meeting,College Union Sunset,Health Sciences Club,10/14/2025,12:00PM,1:00PM,FALSE,TRUE,,Christian Gomez,christianxg17@gmail.com,503-475-2224,FALSE,FALSE,Active,(none)
-24682,RSO Training,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/14/2025,12:00PM,1:00PM,FALSE,TRUE,,Greg Pierson,Gregory.Pierson@oit.edu,5-1827,FALSE,FALSE,Active,(none)
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,10/14/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24677,Rush Week,College Union Sunset,Kappa Xi Alpha,10/14/2025,5:00PM,7:00PM,FALSE,TRUE,,Mary-ElsieKoka,MaryElsie.Koka@oit.edu,8086336084,FALSE,FALSE,Active,(none)
-24707,Meeting,College Union Mt. McLoughlin,Student Affairs,10/15/2025,4:00AM,6:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24558,TIAA Participant Meeting,College Union Sunset,Human Resources,10/15/2025,9:00AM,3:00PM,FALSE,TRUE,Meeting,Sarah Henderson Wong,sarah.hendersonwong@oit.edu,5-1028,FALSE,FALSE,Active,Meeting
-24682,RSO Training,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/15/2025,10:00AM,11:00AM,FALSE,TRUE,,Greg Pierson,Gregory.Pierson@oit.edu,5-1827,FALSE,FALSE,Active,(none)
-24574,Admin Council Meeting,College Union Mt. McLoughlin,Strategic Enrollment Management,10/15/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24677,Rush Week,College Union Sunset,Kappa Xi Alpha,10/15/2025,5:00PM,7:00PM,FALSE,TRUE,,Mary-ElsieKoka,MaryElsie.Koka@oit.edu,8086336084,FALSE,FALSE,Active,(none)
-24250,PERS Presentation,College Union Mt. McLoughlin,Human Resources,10/16/2025,8:00AM,5:00PM,FALSE,TRUE,Meeting,Sarah Henderson Wong,sarah.hendersonwong@oit.edu,5-1028,FALSE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,10/16/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24470,SEIU,College Union Sunset,SEIU Local 503,10/16/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Alicia Jones,alicia.jones@oit.edu,15418851395,FALSE,FALSE,Active,Meeting
-24711,Meeting,College Union Sunset,ASOIT,10/16/2025,3:00PM,4:00PM,FALSE,TRUE,,Uriel Aguilar Torres,uriel.aguilartorres@oit.edu,5-1390,FALSE,FALSE,Active,(none)
-24677,Rush Week,College Union Sunset,Kappa Xi Alpha,10/16/2025,5:00PM,7:00PM,FALSE,TRUE,,Mary-ElsieKoka,MaryElsie.Koka@oit.edu,8086336084,FALSE,FALSE,Active,(none)
-24250,PERS Presentation,College Union Mt. McLoughlin,Human Resources,10/17/2025,8:00AM,12:00PM,FALSE,TRUE,Meeting,Sarah Henderson Wong,sarah.hendersonwong@oit.edu,5-1028,FALSE,FALSE,Active,Meeting
-24591,Key Partners Meeting,College Union Sunset,Strategic Enrollment Management,10/17/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,10/17/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,10/17/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24679,Bid Night,College Union Mt. McLoughlin,Kappa Xi Alpha,10/18/2025,5:00PM,7:00PM,FALSE,TRUE,,Mary-ElsieKoka,MaryElsie.Koka@oit.edu,8086336084,FALSE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,10/18/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,10/19/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24708,RSO Training,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/20/2025,2:00PM,3:00PM,FALSE,TRUE,,Kaylee Barnum,Kaylee.barnum@oit.edu,5-1827,FALSE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,10/20/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24718,OTG Meeting,College Union Sunset,Oregon Tech Gaming Program,10/20/2025,6:00PM,7:30PM,FALSE,TRUE,,Alex Escovedo,Alex.escovedo@oit.edu,541 656-8493,FALSE,FALSE,Active,(none)
-24709,RSO Training,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/22/2025,11:00AM,12:00PM,FALSE,TRUE,,Kaylee Barnum,Kaylee.barnum@oit.edu,5-1827,FALSE,FALSE,Active,(none)
-24673,Student Leadership Summit,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/22/2025,3:30PM,5:30PM,FALSE,TRUE,,Greg Pierson,Greg.Pierson@oit.edu,5-1827,FALSE,FALSE,Active,(none)
-24203,Cascade Comp CHA Board Meeting,College Union Mt. McLoughlin,Cascade Comprehensive Care/Cascade Health Alliance,10/23/2025,7:00AM,9:00AM,FALSE,TRUE,Meeting,Malea Hunt,maleaw@cascadecomp.com,541-851-2087,FALSE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,10/23/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24624,SEIU Meeting,College Union Mt. McLoughlin,Facilities Services,10/23/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,Darryn.stevens@oit.edu,5-1690,TRUE,FALSE,Active,Meeting
-24630,Presentation,College Union Sunset,Admissions,10/24/2025,10:30AM,12:30PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,FALSE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,10/24/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,10/24/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24588,Preview Day,College Union Sunset,Admissions,10/25/2025,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24588,Preview Day,College Union Mt. McLoughlin,Admissions,10/25/2025,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,10/26/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,10/27/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24727,RSO Training,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/27/2025,12:45PM,2:00PM,FALSE,TRUE,,Kaylee Barnum,Kaylee.barnum@oit.edu,5-1827,FALSE,FALSE,Active,(none)
-24702,Pumpkin Carving,College Union Sunset,Campus Activities,10/27/2025,5:00PM,7:00PM,FALSE,TRUE,,Megan Nelson,megan.nelson@oit.edu,530-640-1509,FALSE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,10/27/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24727,RSO Training,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,10/28/2025,9:45AM,11:00AM,FALSE,TRUE,,Kaylee Barnum,Kaylee.barnum@oit.edu,5-1827,FALSE,FALSE,Active,(none)
-24594,Career Fair Presentation,College Union Mt. McLoughlin,Career Services,10/29/2025,8:00AM,6:00PM,FALSE,TRUE,Meeting,Willow Augustine,Willow.augustine@oit.edu,5-1020,TRUE,FALSE,Active,Meeting
-24655,Financial Aid/FORD,College Union Sunset,Financial Aid,10/29/2025,2:00PM,4:00PM,FALSE,TRUE,Meeting,Michelle Monteith,michelle.monteith@oit.edu,5-1280,FALSE,FALSE,Active,Meeting
-24594,Career Fair Presentation,College Union Mt. McLoughlin,Career Services,10/30/2025,8:00AM,6:00PM,FALSE,TRUE,Meeting,Willow Augustine,Willow.augustine@oit.edu,5-1020,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,10/30/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24667,Halloween/Costume Contest,College Union Sunset,Oregon Tech Gaming Program,10/30/2025,5:00PM,9:30PM,FALSE,TRUE,,Camdyn Dunbar,camdyn.dunbar@oit.edu,503-400-2677,FALSE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,10/31/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,10/31/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/1/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/2/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,11/3/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24590,Retention Committee,College Union Sunset,Strategic Enrollment Management,11/4/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24576,SALT,College Union Sunset,Student Affairs,11/5/2025,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,11/6/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,11/7/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,11/7/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/8/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24744,Tabletop Games,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,11/9/2025,12:00PM,5:00PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,FALSE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/9/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24726,Campus Electrical Distribution Pre Bid Mandatory,College Union Sunset,Facilities Services,11/10/2025,1:00PM,2:30PM,FALSE,TRUE,Meeting,Thom Darrah,thom.darrah@oit.edu,541-885-1661,FALSE,FALSE,Active,Meeting
-24741,Meeting OTG,College Union Sunset,Oregon Tech Gaming Program,11/10/2025,6:00PM,7:00PM,FALSE,TRUE,Meeting,Alex Escovedo,Alex.escovedo@oit.edu,541 656-8493,FALSE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,11/10/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,11/12/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,11/13/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,11/13/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,11/14/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,11/14/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24743,Training Sodexo,College Union Mt. McLoughlin,Sodexo,11/15/2025,1:00PM,5:00PM,FALSE,TRUE,Training,Danielle Nelson,danielle.nelson@sodexo.com,541-885-1071,FALSE,FALSE,Active,Training
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/15/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24744,Tabletop Games,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,11/16/2025,12:00PM,5:00PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,FALSE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/16/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24720,Cookie Decorating with CAB,College Union Sunset,Campus Activities,11/17/2025,5:00PM,7:00PM,FALSE,TRUE,,Hannah Rivera,Hannah.Rivera@oit.edu,5-1832,FALSE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,11/17/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24756,Dr. Clark,College Union Mt. McLoughlin,Student Affairs,11/18/2025,10:00AM,10:30AM,FALSE,TRUE,Meeting,Mandi Clark,mandi.clark@oit.edu,541-885-1087,FALSE,FALSE,Active,Meeting
-24713,CU Commission,College Union Sunset,Student Affairs,11/18/2025,11:00AM,12:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24730,Inspire/Civitas Campus Visit,College Union Mt. McLoughlin,"College of Health, Arts and Sciences",11/18/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Tammy Clark,tammy.clark@oit.edu,541-885-1667,FALSE,FALSE,Active,Meeting
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,11/19/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,11/20/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24470,SEIU,College Union Mt. McLoughlin,SEIU Local 503,11/20/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Alicia Jones,alicia.jones@oit.edu,15418851395,FALSE,FALSE,Active,Meeting
-24684,RBC,College Union Sunset,Student Affairs,11/20/2025,2:00PM,6:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24749,Civil Engineering Dept. Meeting,College Union Mt. McLoughlin,Civil Engineering,11/21/2025,8:00AM,12:00PM,FALSE,TRUE,Meeting,Dustin DeWitt,Dustin.DeWitt@oit.edu,5-1650,FALSE,FALSE,Active,Meeting
-24762,Interviews Admissions,College Union Sunset,Admissions,11/21/2025,10:00AM,4:00PM,FALSE,TRUE,Meeting,Lupe Preciado,lupe.preciado@oit.edu,15418515488,FALSE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,11/21/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,11/21/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/22/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24744,Tabletop Games,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,11/23/2025,12:00PM,5:00PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,FALSE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/23/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24761,Financial Aid Meeting,College Union Mt. McLoughlin,Financial Aid,11/24/2025,9:00AM,10:00AM,FALSE,TRUE,Meeting,Michelle Monteith,michelle.monteith@oit.edu,5-1280,FALSE,FALSE,Active,Meeting
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,11/24/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24762,Interviews Admissions,College Union Sunset,Admissions,11/24/2025,3:00PM,4:00PM,FALSE,TRUE,Meeting,Lupe Preciado,lupe.preciado@oit.edu,15418515488,FALSE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,11/24/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24762,Interviews Admissions,College Union Sunset,Admissions,11/25/2025,11:00AM,3:00PM,FALSE,TRUE,Meeting,Lupe Preciado,lupe.preciado@oit.edu,15418515488,FALSE,FALSE,Active,Meeting
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/29/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24744,Tabletop Games,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,11/30/2025,12:00PM,5:00PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,FALSE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,11/30/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24753,CAB Ornament Decorating,College Union Sunset,Campus Activities,12/1/2025,5:00PM,7:00PM,FALSE,TRUE,Meeting,Jessica Wong,Jessica.Wong@oit.edu,5-1832,FALSE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,12/1/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24764,Fish and Wildlife Club Meeting,College Union Mt. McLoughlin,Fish and Wildlife Club,12/2/2025,6:00PM,7:30PM,FALSE,TRUE,,Devon Lindsey,oit.fishandwildlife@gmail.com,541 885-1002,FALSE,FALSE,Active,(none)
-24576,SALT,College Union Sunset,Student Affairs,12/3/2025,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24781,FAC Training,College Union Mt. McLoughlin,ASOIT,12/3/2025,3:00PM,4:00PM,FALSE,TRUE,,Uriel Aguilar Torres,uriel.aguilartorres@oit.edu,5-1390,FALSE,FALSE,Active,(none)
-24783,Training Sodexo,College Union Sunset,Sodexo,12/3/2025,4:00PM,7:00PM,FALSE,TRUE,Meeting,Steven Kappler,sodexo@oit.edu,5418851076,FALSE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,12/4/2025,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24786,ASOIT Meeting,College Union Sunset,ASOIT,12/5/2025,3:00PM,4:00PM,FALSE,TRUE,Meeting,Noah Polen,Noah.polen@oit.edu,5-1390,FALSE,FALSE,Active,Meeting
-24740,Christmas Party,College Union Mt. McLoughlin,Oregon Tech Gaming Program,12/5/2025,3:00PM,9:30PM,FALSE,TRUE,,Alex Escovedo,Alex.escovedo@oit.edu,541 656-8493,TRUE,FALSE,Active,(none)
-24745,Initiation Night,College Union Mt. McLoughlin,Kappa Xi Alpha,12/6/2025,4:00PM,6:00PM,FALSE,TRUE,,Mary-ElsieKoka,MaryElsie.Koka@oit.edu,8086336084,FALSE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,12/6/2025,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24744,Tabletop Games,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,12/7/2025,12:00PM,5:00PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,FALSE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,12/7/2025,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24768,Candle Making,College Union Mt. McLoughlin,Bee Keeping Club,12/8/2025,2:00PM,5:15PM,FALSE,TRUE,,Riley Ore,Riley.ore@oit.edu,541 539-5585,FALSE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,12/8/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,12/9/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24260,Labor Management Committee SEIU,College Union Mt. McLoughlin,Human Resources,12/10/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Sandi Hanan,Sandi.hanan@oit.edu,5-1074,FALSE,FALSE,Active,Meeting
-24782,Fun Run Planning,College Union Sunset,Center for Wellbeing,12/10/2025,11:00AM,12:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,FALSE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,12/10/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,12/11/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24742,Parking and Traffic Commission,College Union Sunset,Campus Safety,12/11/2025,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,12/11/2025,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24789,DOS Meeting,College Union Sunset,Student Affairs,12/12/2025,9:30AM,11:00AM,FALSE,TRUE,Meeting,Mandi Clark,mandi.clark@oit.edu,541-885-1087,FALSE,FALSE,Active,Meeting
-24767,RBC Meeting,College Union Sunset,Student Affairs,12/12/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,12/12/2025,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24614,President's Holiday Party,College Union Sunset,President's Office,12/14/2025,4:00PM,8:30PM,FALSE,TRUE,Reception,Diana Angeli,diana.angeli@oit.edu,5-1105,TRUE,FALSE,Active,Reception
-24614,President's Holiday Party,College Union Mt. McLoughlin,President's Office,12/14/2025,4:00PM,8:30PM,FALSE,TRUE,Reception,Diana Angeli,diana.angeli@oit.edu,5-1105,TRUE,FALSE,Active,Reception
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,12/15/2025,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24788,Search Committee TOP,College Union Sunset,Student Affairs,12/16/2025,10:00AM,12:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,12/17/2025,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,12/18/2025,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24821,SA Budgets,College Union Sunset,Student Affairs,12/18/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24470,SEIU,College Union Mt. McLoughlin,SEIU Local 503,12/18/2025,12:00PM,1:00PM,FALSE,TRUE,Meeting,Alicia Jones,alicia.jones@oit.edu,15418851395,FALSE,FALSE,Active,Meeting
-24591,Key Partners Meeting,College Union Sunset,Strategic Enrollment Management,12/19/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,12/22/2025,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/4/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24791,Candidate Interview,College Union Sunset,Financial Aid,1/5/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Jake Coatney,Jason.coatney@oit.edu,5-1289,FALSE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,1/5/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24791,Candidate Interview,College Union Sunset,Financial Aid,1/6/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Jake Coatney,Jason.coatney@oit.edu,5-1289,FALSE,FALSE,Active,Meeting
-24776,Mug Painting,College Union Mt. McLoughlin,Campus Activities,1/6/2026,6:00PM,8:00PM,FALSE,TRUE,,Megan Nelson,megan.nelson@oit.edu,530-640-1509,FALSE,FALSE,Active,(none)
-24833,Rugby Meeting,College Union Mt. McLoughlin,Athletics,1/7/2026,3:30PM,4:00PM,FALSE,TRUE,Meeting,Kevin Brown,kevin.brown@oit.edu,5-1891,FALSE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,1/8/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/8/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,1/9/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,1/9/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/10/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/11/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24802,OIT High School Counselor Day,College Union Sunset,Admissions,1/12/2026,8:00AM,1:30PM,FALSE,TRUE,Meeting,Devan Patel,Devan.patel@oit.edu,5-1150,FALSE,FALSE,Active,Meeting
-24842,Soccer meeting,College Union Sunset,Athletics,1/12/2026,5:00PM,7:00PM,FALSE,TRUE,Meeting,Tom Moore,tom.moore@oit.edu,5-1620,FALSE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,1/12/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24832,Kahoot Night,College Union Mt. McLoughlin,Bee Keeping Club,1/13/2026,10:00AM,11:00AM,FALSE,TRUE,,Riley Ore,Riley.ore@oit.edu,541 539-5585,FALSE,FALSE,Active,(none)
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,1/13/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24823,SA Leadership,College Union Sunset,Student Affairs,1/14/2026,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24618,Labor Management Committee,College Union Mt. McLoughlin,Human Resources,1/14/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,1/14/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24840,SST,College Union Sunset,Student Affairs,1/15/2026,8:30AM,10:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24841,Candidate Presentation,College Union Sunset,Student Affairs,1/15/2026,10:00AM,12:00PM,FALSE,TRUE,Meeting,Bonita Baontrager,Bonita.Bontrager@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24758,SEIU Meeting,College Union Mt. McLoughlin,SEIU Local 503,1/15/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
-24766,CU Commission,College Union Sunset,Student Affairs,1/15/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/15/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,1/16/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,1/16/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,1/19/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24826,AIMS Training,College Union Mt. McLoughlin,Campus Safety,1/20/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Ryan Brosterhous,Ryan.brosterhous,5-1111,TRUE,FALSE,Active,Meeting
-24836,Gaming Tournament,College Union Mt. McLoughlin,Phi Delta Theta,1/20/2026,6:00PM,9:30PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,FALSE,FALSE,Active,(none)
-24826,AIMS Training,College Union Mt. McLoughlin,Campus Safety,1/21/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Ryan Brosterhous,Ryan.brosterhous,5-1111,TRUE,FALSE,Active,Meeting
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,1/21/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24856,Speed Interviews,College Union Mt. McLoughlin,Residence Life & Housing,1/21/2026,5:00PM,7:00PM,FALSE,TRUE,Meeting,Courtney Clemmer,courtney.clemmer@oit.edu,541-885-0153,FALSE,FALSE,Active,Meeting
-24826,AIMS Training,College Union Mt. McLoughlin,Campus Safety,1/22/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Ryan Brosterhous,Ryan.brosterhous,5-1111,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,1/22/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24860,Ambassador Interview,College Union Sunset,Admissions,1/22/2026,3:00PM,4:00PM,FALSE,TRUE,Meeting,Lupe Preciado,lupe.preciado@oit.edu,15418515488,FALSE,FALSE,Active,Meeting
-24856,Speed Interviews,College Union Mt. McLoughlin,Residence Life & Housing,1/22/2026,5:00PM,7:00PM,FALSE,TRUE,Meeting,Courtney Clemmer,courtney.clemmer@oit.edu,541-885-0153,FALSE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/22/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24826,AIMS Training,College Union Mt. McLoughlin,Campus Safety,1/23/2026,8:00AM,4:00PM,FALSE,TRUE,Meeting,Ryan Brosterhous,Ryan.brosterhous,5-1111,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,1/23/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,1/23/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/24/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/25/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,1/26/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,1/26/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24488,FBLA Conference,College Union Mt. McLoughlin,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
-24488,FBLA Conference,College Union Sunset,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
-24567,SST,College Union Sunset,Student Affairs,1/29/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24855,Chapstick Workshop,College Union Mt. McLoughlin,Bee Keeping Club,1/29/2026,10:00AM,11:00AM,FALSE,TRUE,,Riley Ore,Riley.ore@oit.edu,541 539-5585,FALSE,FALSE,Active,(none)
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/29/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24861,Game Night,College Union Mt. McLoughlin,Campus Activities,1/29/2026,6:00PM,8:00PM,FALSE,TRUE,,Halayah Sherman,halayah.sherman@oit.edu,530-598-4191,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,1/30/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,1/30/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,1/31/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/1/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,2/2/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24844,Wii Bowling Tournament,College Union Sunset,Bowling Club,2/2/2026,6:00PM,8:30PM,FALSE,TRUE,,Carter Grossgold,Carter.grossgold@oit.edu,541 885-1829,FALSE,FALSE,Active,(none)
-24590,Retention Committee,College Union Sunset,Strategic Enrollment Management,2/3/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24867,Health and Science Club Meeting,College Union Mt. McLoughlin,Health Sciences Club,2/4/2026,12:00PM,1:00PM,FALSE,TRUE,,Carley Rogers,Carley.rogers@oit.edu,541 8851829,FALSE,FALSE,Active,(none)
-24567,SST,College Union Sunset,Student Affairs,2/5/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24865,Active Assail Training,College Union Mt. McLoughlin,Campus Safety,2/5/2026,2:00PM,4:00PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/5/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,2/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,2/6/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/7/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/8/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,2/9/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,2/10/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24823,SA Leadership,College Union Sunset,Student Affairs,2/11/2026,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24618,Labor Management Committee,College Union Mt. McLoughlin,Human Resources,2/11/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,2/11/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,2/12/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24742,Parking and Traffic Commission,College Union Sunset,Campus Safety,2/12/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24811,Leadership Summit,College Union Mt. McLoughlin,Student Involvement and Belonging SIB,2/12/2026,3:00PM,6:00PM,FALSE,TRUE,Meeting,SIB,Getinvolved@oit.edu,5-1827,FALSE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/12/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24854,Valentine Party,College Union Sunset,DMS Club,2/13/2026,11:00AM,12:45PM,FALSE,TRUE,,Aaliyah Stone,Aaliyah.stone@oit.edu,5-0172,FALSE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,2/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,2/13/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/14/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/15/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24637,Wellbeing/ HR Meet and Greet,College Union Sunset,Center for Wellbeing,2/16/2026,12:00PM,2:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,2/16/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,2/18/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24858,Clery Compliance Meeting,College Union Mt. McLoughlin,Campus Safety,2/18/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,2/19/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24758,SEIU Meeting,College Union Mt. McLoughlin,SEIU Local 503,2/19/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/19/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24591,Key Partners Meeting,College Union Sunset,Strategic Enrollment Management,2/20/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,2/20/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,2/20/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/21/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/22/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,2/23/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,2/23/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24815,Night in New Orleans,College Union Sunset,Student Involvement and Belonging SIB,2/23/2026,6:00PM,8:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
-24838,RBC,College Union Sunset,Student Affairs,2/25/2026,2:00PM,5:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
-24820,Cascade Board Meeting,College Union Mt. McLoughlin,Cascade Comprehensive Care/Cascade Health Alliance,2/26/2026,6:40AM,8:30AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,2/26/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/26/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,2/27/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,2/27/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,2/28/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/1/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,3/2/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24590,Retention Committee,College Union Sunset,Strategic Enrollment Management,3/3/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,3/5/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/5/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24866,Office Safety,College Union Mt. McLoughlin,Campus Safety,3/6/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,3/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,3/6/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/7/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/8/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,3/9/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,3/10/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24618,Labor Management Committee,College Union Mt. McLoughlin,Human Resources,3/11/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,3/11/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,3/12/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24742,Parking and Traffic Commission,College Union Sunset,Campus Safety,3/12/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/12/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,3/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,3/13/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/14/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/15/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,3/16/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,3/18/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,3/19/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24758,SEIU Meeting,College Union Mt. McLoughlin,SEIU Local 503,3/19/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/19/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24591,Key Partners Meeting,College Union Sunset,Strategic Enrollment Management,3/20/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,3/20/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,3/20/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/21/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/22/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,3/23/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,3/23/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24567,SST,College Union Sunset,Student Affairs,3/26/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/26/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,3/27/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,3/27/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/28/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,3/29/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,3/30/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24823,SA Leadership,College Union Sunset,Student Affairs,4/1/2026,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,4/2/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/2/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,4/3/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,4/3/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/4/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/5/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,4/6/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24590,Retention Committee,College Union Sunset,Strategic Enrollment Management,4/7/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24618,Labor Management Committee,College Union Mt. McLoughlin,Human Resources,4/8/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,4/8/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24865,Active Assail Training,College Union Mt. McLoughlin,Campus Safety,4/8/2026,2:00PM,4:00PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,4/9/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/9/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,4/10/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,4/10/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/11/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/12/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,4/13/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24637,Wellbeing/ HR Meet and Greet,College Union Mt. McLoughlin,Center for Wellbeing,4/14/2026,12:00PM,2:30PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,4/14/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,4/15/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,4/16/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24758,SEIU Meeting,College Union Mt. McLoughlin,SEIU Local 503,4/16/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
-24742,Parking and Traffic Commission,College Union Sunset,Campus Safety,4/16/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/16/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24591,Key Partners Meeting,College Union Sunset,Strategic Enrollment Management,4/17/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,4/17/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,4/17/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24733,Preview Day,College Union Mt. McLoughlin,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24733,Preview Day,College Union Sunset,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/19/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,4/20/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24567,SST,College Union Sunset,Student Affairs,4/23/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/23/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,4/24/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,4/24/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/25/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/26/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,4/27/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,4/27/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24567,SST,College Union Sunset,Student Affairs,4/30/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24850,Student Awards,College Union Mt. McLoughlin,Student Affairs,4/30/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,4/30/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,5/1/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,5/1/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/2/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24829,Language Open House,College Union Mt. McLoughlin,Natural Sciences,5/3/2026,8:00AM,4:00PM,FALSE,TRUE,Meeting,Nate Bickford,nate.bickford@oit.edu,50144,FALSE,FALSE,Active,Meeting
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/3/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,5/4/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24590,Retention Committee,College Union Sunset,Strategic Enrollment Management,5/5/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,5/7/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/7/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,5/8/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,5/8/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/9/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/10/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,5/11/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24850,Student Awards,College Union Mt. McLoughlin,Student Affairs,5/12/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,5/12/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24865,Active Assail Training,College Union Mt. McLoughlin,Campus Safety,5/12/2026,2:00PM,4:00PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24618,Labor Management Committee,College Union Mt. McLoughlin,Human Resources,5/13/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,5/13/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24858,Clery Compliance Meeting,College Union Sunset,Campus Safety,5/13/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,5/14/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/14/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24591,Key Partners Meeting,College Union Sunset,Strategic Enrollment Management,5/15/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,5/15/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,5/15/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/16/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/17/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,5/18/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24823,SA Leadership,College Union Sunset,Student Affairs,5/20/2026,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,5/20/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24866,Office Safety,College Union Mt. McLoughlin,Campus Safety,5/20/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,5/21/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24758,SEIU Meeting,College Union Mt. McLoughlin,SEIU Local 503,5/21/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/21/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,5/22/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,5/22/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/23/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/24/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24676,Wellbeing Committee,College Union Sunset,Student Health Services,5/25/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,5/25/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24567,SST,College Union Sunset,Student Affairs,5/28/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24742,Parking and Traffic Commission,College Union Sunset,Campus Safety,5/28/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/28/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,5/29/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,5/29/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/30/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,5/31/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,6/1/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24590,Retention Committee,College Union Sunset,Strategic Enrollment Management,6/2/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,6/4/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,6/4/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,6/5/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,6/5/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,6/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,6/7/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,6/8/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24575,Academic Council,College Union Sunset,Strategic Enrollment Management,6/9/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24618,Labor Management Committee,College Union Mt. McLoughlin,Human Resources,6/10/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
-24641,Wellbeing Wednesdays,College Union Sunset,Center for Wellbeing,6/10/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,6/11/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24787,D and D,College Union Sunset,Oregon Tech Tabletop Gaming Club,6/11/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
-24658,DnD,College Union Mt. McLoughlin,Oregon Tech Tabletop Gaming Club,6/12/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24430,Trading Card Club,College Union Sunset,Trading Card Game Club,6/12/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
-24670,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,6/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24671,Tabletop Gaming,College Union Sunset,Oregon Tech Tabletop Gaming Club,6/14/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
-24672,Newman Club,College Union Mt. McLoughlin,Newman Club,6/15/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
-24574,Admin Council Meeting,College Union Sunset,Strategic Enrollment Management,6/17/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24567,SST,College Union Sunset,Student Affairs,6/18/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
-24758,SEIU Meeting,College Union Mt. McLoughlin,SEIU Local 503,6/18/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
-24591,Key Partners Meeting,College Union Sunset,Strategic Enrollment Management,6/19/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
-24734,New Wings,College Union Sunset,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24734,New Wings,College Union Mt. McLoughlin,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24734,New Wings,College Union Mt. McLoughlin,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24734,New Wings,College Union Sunset,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24735,New Wings,College Union Sunset,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24735,New Wings,College Union Mt. McLoughlin,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24735,New Wings,College Union Mt. McLoughlin,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24735,New Wings,College Union Sunset,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
-24758,SEIU Meeting,College Union Mt. McLoughlin,SEIU Local 503,7/16/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
-24858,Clery Compliance Meeting,College Union Sunset,Campus Safety,7/23/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24820,Cascade Board Meeting,College Union Mt. McLoughlin,Cascade Comprehensive Care/Cascade Health Alliance,8/27/2026,6:40AM,8:30AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
-24858,Clery Compliance Meeting,College Union Sunset,Campus Safety,8/27/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
-24820,Cascade Board Meeting,College Union Mt. McLoughlin,Cascade Comprehensive Care/Cascade Health Alliance,10/22/2026,6:40AM,8:30AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
+EventId,Title,Description,Location,LocationUrl,Department,EventDate,StartTime,EndTime,IsAllDayEvent,IsTimedEvent,EventType,ContactName,ContactEmail,ContactPhone,IsReOccurring,IsOnMultipleCalendars,Status,EventTypeName
+24826,AIMS Training,,College Union Mt. McLoughlin,,Campus Safety,1/22/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Ryan Brosterhous,Ryan.brosterhous,5-1111,TRUE,FALSE,Active,Meeting
+24825,Sucker Technical Symposium,,College Union Crater Lake Complex,,US Fish and Wildlife,1/22/2026,8:00AM,6:00PM,FALSE,TRUE,Seminar,Jane Spangler,sarah_spangler@FWS.gov,417 840 9903,FALSE,FALSE,Active,Seminar
+24567,SST,,College Union Sunset,,Student Affairs,1/22/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24800,ASOITExecutive Meeting,,College Union Mt. Thielsen,,ASOIT,1/22/2026,2:00PM,3:00PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24860,Ambassador Interview,,College Union Sunset,,Admissions,1/22/2026,3:00PM,4:00PM,FALSE,TRUE,Meeting,Lupe Preciado,lupe.preciado@oit.edu,15418515488,FALSE,FALSE,Active,Meeting
+24847,Meal Kit Assembly,,College Union Union Peak Lounge,,Student Involvement and Belonging SIB,1/22/2026,3:00PM,5:00PM,FALSE,TRUE,,Kaylee Barnum,Kaylee.barnum@oit.edu,5-1827,FALSE,FALSE,Active,(none)
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,1/22/2026,5:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24856,Speed Interviews,,College Union Mt. McLoughlin,,Residence Life & Housing,1/22/2026,5:00PM,7:00PM,FALSE,TRUE,Meeting,Courtney Clemmer,courtney.clemmer@oit.edu,541-885-0153,FALSE,FALSE,Active,Meeting
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,1/22/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24826,AIMS Training,,College Union Mt. McLoughlin,,Campus Safety,1/23/2026,8:00AM,4:00PM,FALSE,TRUE,Meeting,Ryan Brosterhous,Ryan.brosterhous,5-1111,TRUE,FALSE,Active,Meeting
+24809,MLK Talk with Dr. Wilson,,College Union Crater Lake Complex,,Student Involvement and Belonging SIB,1/23/2026,3:00PM,5:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,1/23/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,1/23/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,1/23/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,1/24/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,1/24/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,1/24/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24863,Rehearsal,,College Union Auditorium,,Judah Butcher,1/24/2026,7:00PM,9:00PM,FALSE,TRUE,,Judah Butcher,Judah.butcher@oit.edu,1 503-741--4649,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,1/25/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,1/25/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,1/25/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24676,Wellbeing Committee,,College Union Sunset,,Student Health Services,1/26/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,1/26/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,1/26/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24822,Athletics Meeting,,College Union Bailey/Thielsen,,Athletics,1/27/2026,7:00PM,9:00PM,FALSE,TRUE,,John VanDyke,john.vandyke@oit.edu,541-885-1452,FALSE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,1/27/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24488,FBLA Conference,,College Union Auditorium,,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
+24488,FBLA Conference,,College Union Auditorium Lobby,,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
+24488,FBLA Conference,,College Union Mt. Shasta Lounge,,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
+24488,FBLA Conference,,College Union Mt. McLoughlin,,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
+24488,FBLA Conference,,College Union Sunset,,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
+24488,FBLA Conference,,College Union Crater Lake Complex,,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
+24488,FBLA Conference,,College Union Bailey/Thielsen,,Klamath County School District,1/28/2026,8:00AM,5:00PM,FALSE,TRUE,,Heather Crowder,crowderh@kcsd.k12.or.us,541-883-5025,TRUE,FALSE,Active,(none)
+24863,Rehearsal,,College Union Auditorium,,Judah Butcher,1/28/2026,7:00PM,9:00PM,FALSE,TRUE,,Judah Butcher,Judah.butcher@oit.edu,1 503-741--4649,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,1/29/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24855,Chapstick Workshop,,College Union Mt. McLoughlin,,Bee Keeping Club,1/29/2026,10:00AM,11:00AM,FALSE,TRUE,,Riley Ore,Riley.ore@oit.edu,541 539-5585,FALSE,FALSE,Active,(none)
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,1/29/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,1/29/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24861,Game Night,,College Union Mt. McLoughlin,,Campus Activities,1/29/2026,6:00PM,8:00PM,FALSE,TRUE,,Halayah Sherman,halayah.sherman@oit.edu,530-598-4191,TRUE,FALSE,Active,(none)
+24861,Game Night,,College Union Mt Bachelor Lounge,,Campus Activities,1/29/2026,6:00PM,8:00PM,FALSE,TRUE,,Halayah Sherman,halayah.sherman@oit.edu,530-598-4191,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,1/30/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24835,IFC Meeting,,College Union Crater Lake Complex,,ASOIT,1/30/2026,5:00PM,9:30PM,FALSE,TRUE,,Uriel Aguilar Torres,uriel.aguilartorres@oit.edu,5-1390,FALSE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,1/30/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,1/30/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,1/31/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,1/31/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,1/31/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/1/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,2/1/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,2/1/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24800,ASOITExecutive Meeting,,College Union Mt. Thielsen,,ASOIT,2/2/2026,4:00PM,5:00PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/2/2026,6:00PM,9:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,2/2/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24844,Wii Bowling Tournament,,College Union Sunset,,Bowling Club,2/2/2026,6:00PM,8:30PM,FALSE,TRUE,,Carter Grossgold,Carter.grossgold@oit.edu,541 885-1829,FALSE,FALSE,Active,(none)
+24590,Retention Committee,,College Union Sunset,,Strategic Enrollment Management,2/3/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,2/3/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24867,Health and Science Club Meeting,,College Union Mt. McLoughlin,,Health Sciences Club,2/4/2026,12:00PM,1:00PM,FALSE,TRUE,,Carley Rogers,Carley.rogers@oit.edu,541 8851829,FALSE,FALSE,Active,(none)
+24703,ASOIT General Meeting,,College Union Auditorium,,ASOIT,2/4/2026,6:00PM,7:30PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,2/5/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24865,Active Assail Training,,College Union Mt. McLoughlin,,Campus Safety,2/5/2026,2:00PM,4:00PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/5/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/5/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24620,First Friday,,College Union Mt. Mazama,,Student Affairs,2/6/2026,9:00AM,10:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24810,Hidden Figures of History Trivia,,College Union Mt. Shasta Lounge,,Student Involvement and Belonging SIB,2/6/2026,4:00PM,5:00PM,FALSE,TRUE,,SIB,Getinvolved@oit.edu,5-1827,FALSE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,2/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,2/6/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,2/7/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,2/7/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/7/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/7/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24864,Village Active Event,,College Union Crater Lake Complex,,Residence Life & Housing,2/7/2026,6:00PM,9:00PM,FALSE,TRUE,,Matt Young,matt.young@oit.edu,541-885-0146,FALSE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/8/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,2/8/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,2/8/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24852,Valentine Gram Sale,,College Union Bookstore Lobby Right,,DMS Club,2/9/2026,8:30AM,2:00PM,FALSE,TRUE,,Aaliyah Stone,Aaliyah.stone@oit.edu,5-0172,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/9/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,2/9/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24771,WCB Hearing,,College Union Mt. Bailey,,Dept Consumer & Business Services,2/10/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Bianka Rivera,bianka.s.rivera@wcb.oregon.gov,503-934-0090,FALSE,FALSE,Active,Meeting
+24575,Academic Council,,College Union Sunset,,Strategic Enrollment Management,2/10/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,2/10/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24852,Valentine Gram Sale,,College Union Bookstore Lobby Right,,DMS Club,2/11/2026,8:30AM,2:00PM,FALSE,TRUE,,Aaliyah Stone,Aaliyah.stone@oit.edu,5-0172,TRUE,FALSE,Active,(none)
+24823,SA Leadership,,College Union Sunset,,Student Affairs,2/11/2026,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24618,Labor Management Committee,,College Union Mt. McLoughlin,,Human Resources,2/11/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
+24641,Wellbeing Wednesdays,,College Union Sunset,,Center for Wellbeing,2/11/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
+24866,Office Safety,,College Union Bailey/Thielsen,,Campus Safety,2/11/2026,1:00PM,2:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24567,SST,,College Union Sunset,,Student Affairs,2/12/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24742,Parking and Traffic Commission,,College Union Sunset,,Campus Safety,2/12/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24811,Leadership Summit,,College Union Mt. McLoughlin,,Student Involvement and Belonging SIB,2/12/2026,3:00PM,6:00PM,FALSE,TRUE,Meeting,SIB,Getinvolved@oit.edu,5-1827,FALSE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/12/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/12/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24854,Valentine Party,,College Union Sunset,,DMS Club,2/13/2026,11:00AM,12:45PM,FALSE,TRUE,,Aaliyah Stone,Aaliyah.stone@oit.edu,5-0172,FALSE,FALSE,Active,(none)
+24862,Candy Bar,,College Union Shasta/Bachelor Lounge,,Campus Activities,2/13/2026,4:00PM,6:00PM,FALSE,TRUE,,Halayah Sherman,halayah.sherman@oit.edu,530-598-4191,FALSE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,2/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24812,Painted Roots and Threaded Voices,,College Union Crater Lake Complex,,Student Involvement and Belonging SIB,2/13/2026,5:00PM,6:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,2/13/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,2/14/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,2/14/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/14/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/14/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/15/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,2/15/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,2/15/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24637,Wellbeing/ HR Meet and Greet,,College Union Sunset,,Center for Wellbeing,2/16/2026,12:00PM,2:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
+24800,ASOITExecutive Meeting,,College Union Mt. Thielsen,,ASOIT,2/16/2026,4:00PM,5:00PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24814,Black History Month Guest Speaker,,College Union Mt. Mazama,,Student Involvement and Belonging SIB,2/16/2026,5:30PM,7:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/16/2026,6:00PM,9:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,2/16/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24813,Lunar New Year Tableing,,College Union Mt. Shasta Lounge,,Student Involvement and Belonging SIB,2/17/2026,11:00AM,2:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,2/17/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24574,Admin Council Meeting,,College Union Sunset,,Strategic Enrollment Management,2/18/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24858,Clery Compliance Meeting,,College Union Mt. McLoughlin,,Campus Safety,2/18/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24642,Jostens,,College Union Main Entrance Left,,The Tech Nest,2/19/2026,8:00AM,5:00PM,FALSE,TRUE,Display,Christopher Sacks,bookstore@oit.edu,5-1058,TRUE,FALSE,Active,Display
+24567,SST,,College Union Sunset,,Student Affairs,2/19/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24758,SEIU Meeting,,College Union Mt. McLoughlin,,SEIU Local 503,2/19/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/19/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/19/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24642,Jostens,,College Union Main Entrance Left,,The Tech Nest,2/20/2026,8:00AM,5:00PM,FALSE,TRUE,Display,Christopher Sacks,bookstore@oit.edu,5-1058,TRUE,FALSE,Active,Display
+24591,Key Partners Meeting,,College Union Sunset,,Strategic Enrollment Management,2/20/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,2/20/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/20/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,2/20/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,2/21/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,2/21/2026,12:00PM,4:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/21/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/21/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/22/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,2/22/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,2/22/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24676,Wellbeing Committee,,College Union Sunset,,Student Health Services,2/23/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/23/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,2/23/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24815,Night in New Orleans,,College Union Sunset,,Student Involvement and Belonging SIB,2/23/2026,6:00PM,8:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24784,WCB Hearing,,College Union Mt. Bailey,,Dept Consumer & Business Services,2/24/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Bianka Rivera,bianka.s.rivera@wcb.oregon.gov,503-934-0090,FALSE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,2/24/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24816,DIY Pasta Jars,,College Union Mt. Shasta Lounge,,Student Involvement and Belonging SIB,2/25/2026,2:00PM,5:00PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24838,RBC,,College Union Sunset,,Student Affairs,2/25/2026,2:00PM,5:00PM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,FALSE,FALSE,Active,Meeting
+24820,Cascade Board Meeting,,College Union Mt. McLoughlin,,Cascade Comprehensive Care/Cascade Health Alliance,2/26/2026,6:40AM,8:30AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
+24567,SST,,College Union Sunset,,Student Affairs,2/26/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,2/26/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/26/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24843,Engineers Week Dinner,,College Union Crater Lake Complex,,ETM,2/26/2026,6:00PM,8:00PM,FALSE,TRUE,Meeting,Valjean Newsome,valjean.newsome@oit.edu,885-1650,FALSE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,2/27/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/27/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,2/27/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,2/28/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,2/28/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,2/28/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,2/28/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/1/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,3/1/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,3/1/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24800,ASOITExecutive Meeting,,College Union Mt. Thielsen,,ASOIT,3/2/2026,4:00PM,5:00PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/2/2026,6:00PM,9:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,3/2/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24590,Retention Committee,,College Union Sunset,,Strategic Enrollment Management,3/3/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24817,Lantern Festival,,College Union Cascades Deck,,Student Involvement and Belonging SIB,3/3/2026,6:00PM,7:30PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,3/3/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24703,ASOIT General Meeting,,College Union Crater Lake Complex,,ASOIT,3/4/2026,6:00PM,7:30PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,3/5/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24818,Self Care Station,,College Union Union Peak Lounge,,Student Involvement and Belonging SIB,3/5/2026,11:00AM,2:30PM,FALSE,TRUE,,Shawni Cayetano-Ramos,shawni.cayetanoramos@oit.edu,5-0164,FALSE,FALSE,Active,(none)
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/5/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/5/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24620,First Friday,,College Union Mt. Mazama,,Student Affairs,3/6/2026,9:00AM,10:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24866,Office Safety,,College Union Mt. McLoughlin,,Campus Safety,3/6/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,3/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,3/6/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24828,Giving Society Brunch,,College Union Crater Lake Complex,,Development,3/7/2026,10:00AM,12:00PM,FALSE,TRUE,Meeting,Katie Cavendish,katie.cavendish@oit.edu,5-0222,FALSE,FALSE,Active,Meeting
+24848,Hula Workshop,,College Union Mt. Bailey,,Alanui 'O Pueo  HAWAII club,3/7/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,3/7/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/7/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/7/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/8/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,3/8/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,3/8/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24794,OPU Presentation,,College Union Auditorium,,Admissions,3/9/2026,9:00AM,11:00AM,FALSE,TRUE,Community Event,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,Community Event
+24794,OPU Presentation,,College Union Crater Lake Complex,,Admissions,3/9/2026,9:00AM,11:00AM,FALSE,TRUE,Community Event,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,Community Event
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/9/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,3/9/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24827,Training KCPH,,College Union Crater Lake Complex,,Klamath County Public Health Department,3/10/2026,8:00AM,8:00PM,FALSE,TRUE,Meeting,Johnna O'Neil,joneil@klamathcounty.org,541-880-5500 Ext. 8226,TRUE,FALSE,Active,Meeting
+24865,Active Assail Training,,College Union Bailey/Thielsen,,Campus Safety,3/10/2026,1:00PM,3:00PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24575,Academic Council,,College Union Sunset,,Strategic Enrollment Management,3/10/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,3/10/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24827,Training KCPH,,College Union Crater Lake Complex,,Klamath County Public Health Department,3/11/2026,8:00AM,8:00PM,FALSE,TRUE,Meeting,Johnna O'Neil,joneil@klamathcounty.org,541-880-5500 Ext. 8226,TRUE,FALSE,Active,Meeting
+24666,ADHD/Anxiety Screening,,College Union Mt. Shasta Lounge,,Student Health Services,3/11/2026,9:00AM,3:00PM,FALSE,TRUE,,Jennifer Bavarskas,Jennifer.Bavarskas@oit.edu,5-1806,FALSE,FALSE,Active,(none)
+24618,Labor Management Committee,,College Union Mt. McLoughlin,,Human Resources,3/11/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
+24641,Wellbeing Wednesdays,,College Union Sunset,,Center for Wellbeing,3/11/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
+24827,Training KCPH,,College Union Crater Lake Complex,,Klamath County Public Health Department,3/12/2026,8:00AM,8:00PM,FALSE,TRUE,Meeting,Johnna O'Neil,joneil@klamathcounty.org,541-880-5500 Ext. 8226,TRUE,FALSE,Active,Meeting
+24567,SST,,College Union Sunset,,Student Affairs,3/12/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24742,Parking and Traffic Commission,,College Union Sunset,,Campus Safety,3/12/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/12/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/12/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,3/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,3/13/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,3/14/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,3/14/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/14/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/14/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/15/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,3/15/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,3/15/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/16/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,3/16/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24830,WCB Hearing,,College Union Mt. Bailey,,Dept Consumer & Business Services,3/17/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Bianka Rivera,bianka.s.rivera@wcb.oregon.gov,503-934-0090,FALSE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,3/17/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24853,WCB Hearing,,College Union Mt. Bailey,,Dept Consumer & Business Services,3/18/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Bianka Rivera,bianka.s.rivera@wcb.oregon.gov,503-934-0090,FALSE,FALSE,Active,Meeting
+24574,Admin Council Meeting,,College Union Sunset,,Strategic Enrollment Management,3/18/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24567,SST,,College Union Sunset,,Student Affairs,3/19/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24758,SEIU Meeting,,College Union Mt. McLoughlin,,SEIU Local 503,3/19/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/19/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/19/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24591,Key Partners Meeting,,College Union Sunset,,Strategic Enrollment Management,3/20/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,3/20/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/20/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,3/20/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,3/21/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/21/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/21/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/22/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,3/22/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,3/22/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24676,Wellbeing Committee,,College Union Sunset,,Student Health Services,3/23/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/23/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,3/23/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,3/24/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,3/26/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/26/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/26/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,3/27/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/27/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,3/27/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,3/28/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,3/28/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,3/28/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/28/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,3/29/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,3/29/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,3/29/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,3/30/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,3/30/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,3/31/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24823,SA Leadership,,College Union Sunset,,Student Affairs,4/1/2026,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24567,SST,,College Union Sunset,,Student Affairs,4/2/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24780,Memorial,,College Union Crater Lake Complex,,Valley View Congregation,4/2/2026,5:00PM,9:30PM,FALSE,TRUE,Community Event,Keith Clinton,klamathgutter@gmail.com,541-891-1177,FALSE,FALSE,Active,Community Event
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/2/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/2/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24620,First Friday,,College Union Mt. Mazama,,Student Affairs,4/3/2026,9:00AM,10:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,4/3/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,4/3/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,4/3/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,4/4/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,4/4/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,4/4/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/4/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/5/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,4/5/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,4/5/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/6/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,4/6/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24851,Soroptimist,,College Union Crater Lake Complex,,Soroptimist International of Klamth Falls,4/7/2026,11:30AM,1:00PM,FALSE,TRUE,,rejeana jackson,rejeana@rejeanajackson.com,541-892-2819,FALSE,FALSE,Active,(none)
+24590,Retention Committee,,College Union Sunset,,Strategic Enrollment Management,4/7/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,4/7/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24618,Labor Management Committee,,College Union Mt. McLoughlin,,Human Resources,4/8/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
+24641,Wellbeing Wednesdays,,College Union Sunset,,Center for Wellbeing,4/8/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
+24865,Active Assail Training,,College Union Mt. McLoughlin,,Campus Safety,4/8/2026,2:00PM,4:00PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24703,ASOIT General Meeting,,College Union Auditorium,,ASOIT,4/8/2026,6:00PM,7:30PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,4/9/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/9/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/9/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,4/10/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,4/10/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,4/10/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,4/11/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,4/11/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/11/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/12/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,4/12/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,4/12/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/13/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,4/13/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24637,Wellbeing/ HR Meet and Greet,,College Union Mt. McLoughlin,,Center for Wellbeing,4/14/2026,12:00PM,2:30PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
+24866,Office Safety,,College Union Bailey/Thielsen,,Campus Safety,4/14/2026,1:00PM,2:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24575,Academic Council,,College Union Sunset,,Strategic Enrollment Management,4/14/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,4/14/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24868,WCB Hearing,,College Union Mt. Bailey,,Dept Consumer & Business Services,4/15/2026,8:00AM,5:00PM,FALSE,TRUE,Meeting,Bianka Rivera,bianka.s.rivera@wcb.oregon.gov,503-934-0090,FALSE,FALSE,Active,Meeting
+24574,Admin Council Meeting,,College Union Sunset,,Strategic Enrollment Management,4/15/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24819,Cascade Staff Meeting,,College Union Bailey/Thielsen,,Cascade Comprehensive Care/Cascade Health Alliance,4/16/2026,7:45AM,10:00AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
+24739,Career Fair,,College Union Crater Lake Complex,,Career Services,4/16/2026,8:00AM,8:00PM,FALSE,TRUE,,Willow Augustine,Willow.augustine@oit.edu,5-1020,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,4/16/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24739,Career Fair,,College Union Bailey/Thielsen,,Career Services,4/16/2026,10:30AM,4:00PM,FALSE,TRUE,,Willow Augustine,Willow.augustine@oit.edu,5-1020,TRUE,FALSE,Active,(none)
+24758,SEIU Meeting,,College Union Mt. McLoughlin,,SEIU Local 503,4/16/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
+24742,Parking and Traffic Commission,,College Union Sunset,,Campus Safety,4/16/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/16/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/16/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24591,Key Partners Meeting,,College Union Sunset,,Strategic Enrollment Management,4/17/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,4/17/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,4/17/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,4/17/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Main Entrance,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Auditorium,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Auditorium Lobby,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Union Peak Lounge,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Mt. Shasta Lounge,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Mt. McLoughlin,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Sunset,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Crater Lake Complex,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24733,Preview Day,,College Union Bailey/Thielsen,,Admissions,4/18/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/19/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,4/19/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,4/19/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/20/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,4/20/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24705,Fidelity 1 on 1 meetings,,College Union Bailey/Thielsen,,Human Resources,4/21/2026,9:00AM,5:00PM,FALSE,TRUE,Meeting,Sarah Henderson Wong,sarah.hendersonwong@oit.edu,5-1028,FALSE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,4/21/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24638,Wellbeing Fair,,College Union Crater Lake Complex,,Center for Wellbeing,4/22/2026,8:00AM,2:00PM,FALSE,TRUE,,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,FALSE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,4/23/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/23/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/23/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,4/24/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,4/24/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,4/24/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,4/25/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,4/25/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,4/25/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/25/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/26/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,4/26/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,4/26/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24676,Wellbeing Committee,,College Union Sunset,,Student Health Services,4/27/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/27/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,4/27/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,4/28/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,4/30/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24850,Student Awards,,College Union Mt. McLoughlin,,Student Affairs,4/30/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,4/30/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,4/30/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24620,First Friday,,College Union Mt. Mazama,,Student Affairs,5/1/2026,9:00AM,10:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,5/1/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/1/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,5/1/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,5/2/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,5/2/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/2/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/2/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24829,Language Open House,,College Union Mt. McLoughlin,,Natural Sciences,5/3/2026,8:00AM,4:00PM,FALSE,TRUE,Meeting,Nate Bickford,nate.bickford@oit.edu,50144,FALSE,FALSE,Active,Meeting
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/3/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,5/3/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,5/3/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/4/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,5/4/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24590,Retention Committee,,College Union Sunset,,Strategic Enrollment Management,5/5/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,5/5/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24699,Blood Drive,,College Union Bailey/Thielsen,,Health Sciences Club,5/6/2026,8:00AM,4:00PM,FALSE,TRUE,,Jennah Stobie,jennah.stobie@oit.edu,503-724-3969,FALSE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,5/7/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/7/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/7/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24581,TOP Honors,,College Union Mt. Mazama,,Tech Opportunities Program (TOP),5/8/2026,3:00PM,7:30PM,FALSE,TRUE,,Dahiana Padilla,Dahiana.padilla@oit.edu,541-885-1129,FALSE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,5/8/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/8/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,5/8/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,5/9/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,5/9/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/9/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/9/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/10/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,5/10/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,5/10/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/11/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,5/11/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24850,Student Awards,,College Union Mt. McLoughlin,,Student Affairs,5/12/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24575,Academic Council,,College Union Sunset,,Strategic Enrollment Management,5/12/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24865,Active Assail Training,,College Union Mt. McLoughlin,,Campus Safety,5/12/2026,2:00PM,4:00PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,5/12/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24618,Labor Management Committee,,College Union Mt. McLoughlin,,Human Resources,5/13/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
+24641,Wellbeing Wednesdays,,College Union Sunset,,Center for Wellbeing,5/13/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
+24858,Clery Compliance Meeting,,College Union Sunset,,Campus Safety,5/13/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24703,ASOIT General Meeting,,College Union Crater Lake Complex,,ASOIT,5/13/2026,6:00PM,7:30PM,FALSE,TRUE,,Peter Schram,Peter.Schram@oit.edu,503 707-5261,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,5/14/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/14/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/14/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24591,Key Partners Meeting,,College Union Sunset,,Strategic Enrollment Management,5/15/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,5/15/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/15/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,5/15/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24729,President's Gala,,College Union Auditorium Lobby,,Operations,5/16/2026,8:00AM,10:00PM,FALSE,TRUE,,Jennifer James,jennifer.james@oit.edu,541 885-1134,TRUE,FALSE,Active,(none)
+24729,President's Gala,,College Union Crater Lake Complex,,Operations,5/16/2026,8:00AM,10:00PM,FALSE,TRUE,,Jennifer James,jennifer.james@oit.edu,541 885-1134,TRUE,FALSE,Active,(none)
+24729,President's Gala,,College Union NW Entrance Walkway/Courtyard,,Operations,5/16/2026,8:00AM,10:00PM,FALSE,TRUE,,Jennifer James,jennifer.james@oit.edu,541 885-1134,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Mt. Bailey,,Alanui 'O Pueo  HAWAII club,5/16/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,5/16/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/16/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/16/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/17/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,5/17/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,5/17/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/18/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,5/18/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,5/19/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24823,SA Leadership,,College Union Sunset,,Student Affairs,5/20/2026,9:00AM,10:30AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24574,Admin Council Meeting,,College Union Sunset,,Strategic Enrollment Management,5/20/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24866,Office Safety,,College Union Mt. McLoughlin,,Campus Safety,5/20/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24567,SST,,College Union Sunset,,Student Affairs,5/21/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24758,SEIU Meeting,,College Union Mt. McLoughlin,,SEIU Local 503,5/21/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/21/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/21/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,5/22/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/22/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,5/22/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,5/23/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,5/23/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/23/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/23/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/24/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,5/24/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,5/24/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24676,Wellbeing Committee,,College Union Sunset,,Student Health Services,5/25/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Gaylyn Maurer,gaylyn.maurer@oit.edu,5-1800,TRUE,FALSE,Active,Meeting
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/25/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,5/25/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24690,Music Club Practice,,College Union Auditorium,,Music Club,5/26/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,5/28/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24742,Parking and Traffic Commission,,College Union Sunset,,Campus Safety,5/28/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,5/28/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/28/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,5/29/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/29/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,5/29/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,5/30/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,5/30/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,5/30/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/30/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,5/31/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,5/31/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,5/31/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24557,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,6/1/2026,5:00PM,8:30PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,6/1/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24590,Retention Committee,,College Union Sunset,,Strategic Enrollment Management,6/2/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,6/2/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,6/4/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24556,Christian Fellowship,,College Union Bailey/Thielsen,,Christian Fellowship,6/4/2026,6:00PM,10:00PM,FALSE,TRUE,,Asher Molzer,Asher.Molzer@oit.edu,5417789666,TRUE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,6/4/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24620,First Friday,,College Union Bailey/Thielsen,,Student Affairs,6/5/2026,9:00AM,10:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,6/5/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,6/5/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,6/5/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24848,Hula Workshop,,College Union Crater Lake Complex,,Alanui 'O Pueo  HAWAII club,6/6/2026,10:00AM,12:00PM,FALSE,TRUE,,Tia Lardizabal,Tia.Lardizabal@oit.edu,,TRUE,FALSE,Active,(none)
+24728,Pep Band Practice,,College Union Auditorium,,Oregon Tech Pep Band,6/6/2026,12:00PM,3:00PM,FALSE,TRUE,,Matthew Cash,Matthew.cash@oit.edu,531 410-3401,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,6/6/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,6/6/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,6/7/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24746,Chapter Meeting,,College Union Bailey/Thielsen,,Phi Delta Theta,6/7/2026,3:00PM,5:00PM,FALSE,TRUE,,AJ Borovansky,AJ.Borovansky@oit.edu,1,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,6/7/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,6/8/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24575,Academic Council,,College Union Sunset,,Strategic Enrollment Management,6/9/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24690,Music Club Practice,,College Union Auditorium,,Music Club,6/9/2026,7:30PM,9:30PM,FALSE,TRUE,,Sebastian Fleschner,Sebastian.Fleschner@oit.edu,971 203-4538,TRUE,FALSE,Active,(none)
+24618,Labor Management Committee,,College Union Mt. McLoughlin,,Human Resources,6/10/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Amy Taylor,Amy.Taylor@oit.edu,5-1120,TRUE,FALSE,Active,Meeting
+24641,Wellbeing Wednesdays,,College Union Sunset,,Center for Wellbeing,6/10/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Gaylyn Maurer,Gaylyn.Maurer@oit.edu,541 885-1939,TRUE,FALSE,Active,Meeting
+24568,Student Alumni Brunch,,College Union Crater Lake Complex,,Student Affairs,6/11/2026,7:45AM,4:45PM,FALSE,TRUE,,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,(none)
+24567,SST,,College Union Sunset,,Student Affairs,6/11/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24807,Overflow seating for OHSU Pinning,,College Union Bailey/Thielsen,,OHSU (Nursing),6/11/2026,10:30AM,6:30PM,FALSE,TRUE,,Tanya Chard,Tanya.Chard@oit.edu,971-262-1250,FALSE,FALSE,Active,(none)
+24751,OHSU Pinning Ceremony,,College Union Auditorium,,OHSU (Nursing),6/11/2026,11:00AM,6:00PM,FALSE,TRUE,,Tanya Chard,Tanya.Chard@oit.edu,971 262-1250,FALSE,FALSE,Active,(none)
+24787,D and D,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,6/11/2026,6:00PM,9:30PM,FALSE,TRUE,,Diana Lamb,Diana.Lamb@oit.edu,503 479-8034,TRUE,FALSE,Active,(none)
+24568,Student Alumni Brunch,,College Union Crater Lake Complex,,Student Affairs,6/12/2026,7:45AM,4:45PM,FALSE,TRUE,,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,(none)
+24658,DnD,,College Union Mt. McLoughlin,,Oregon Tech Tabletop Gaming Club,6/12/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24669,Table Top Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,6/12/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24845,Dental Hygiene Pinning Ceremony,,College Union Auditorium,,Dental Hygiene,6/12/2026,5:30PM,6:30PM,FALSE,TRUE,,Jeannie Bopp,jeannie.bopp@oit.edu,5-1340,FALSE,FALSE,Active,(none)
+24430,Trading Card Club,,College Union Sunset,,Trading Card Game Club,6/12/2026,5:30PM,10:00PM,FALSE,TRUE,,Franny Howes,franny.howes@oit.edu,885-0339,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Bailey/Thielsen,,Oregon Tech Tabletop Gaming Club,6/13/2026,1:30PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24670,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,6/13/2026,5:00PM,10:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24671,Tabletop Gaming,,College Union Sunset,,Oregon Tech Tabletop Gaming Club,6/14/2026,12:00PM,5:00PM,FALSE,TRUE,,Parker Fagen,parker.fagen,5035300423,TRUE,FALSE,Active,(none)
+24662,Music Club Practice,,College Union Auditorium,,Music Club,6/14/2026,6:00PM,9:45PM,FALSE,TRUE,,Kian Pease,Kian.Pease@oit.edu,5039152159,TRUE,FALSE,Active,(none)
+24672,Newman Club,,College Union Mt. McLoughlin,,Newman Club,6/15/2026,6:00PM,8:00PM,FALSE,TRUE,,Conner Berg,conner.berg@oit.edu,541-884-4566 x101,TRUE,FALSE,Active,(none)
+24574,Admin Council Meeting,,College Union Sunset,,Strategic Enrollment Management,6/17/2026,2:00PM,3:00PM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24567,SST,,College Union Sunset,,Student Affairs,6/18/2026,9:00AM,11:00AM,FALSE,TRUE,Meeting,Rachel Winters,rachel.winters@oit.edu,5-1011,TRUE,FALSE,Active,Meeting
+24758,SEIU Meeting,,College Union Mt. McLoughlin,,SEIU Local 503,6/18/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
+24591,Key Partners Meeting,,College Union Sunset,,Strategic Enrollment Management,6/19/2026,10:00AM,11:00AM,FALSE,TRUE,Meeting,Dede Harlan,dierdre.Harlan@oit.edu,5-1747,TRUE,FALSE,Active,Meeting
+24734,New Wings,,College Union Mt. McLoughlin,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Auditorium,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Crater Lake Complex,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Main Entrance,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Bailey/Thielsen,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Auditorium Lobby,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Union Peak Lounge,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Bachelor/Shasta Lounges,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Sunset,,Admissions,6/25/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Sunset,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Union Peak Lounge,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Auditorium Lobby,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Bailey/Thielsen,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Main Entrance,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Crater Lake Complex,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Auditorium,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24734,New Wings,,College Union Mt. McLoughlin,,Admissions,6/26/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Bachelor/Shasta Lounges,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Main Entrance,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Sunset,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Crater Lake Complex,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Union Peak Lounge,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Auditorium,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Bailey/Thielsen,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Mt. McLoughlin,,Admissions,7/9/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Mt. McLoughlin,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Bailey/Thielsen,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Auditorium,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Union Peak Lounge,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Crater Lake Complex,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Sunset,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Main Entrance,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24735,New Wings,,College Union Bachelor/Shasta Lounges,,Admissions,7/10/2026,8:00AM,8:00PM,FALSE,TRUE,,Lupe Preciado,lupe.preciado@oit.edu,15418515488,TRUE,FALSE,Active,(none)
+24819,Cascade Staff Meeting,,College Union Mt. Mazama,,Cascade Comprehensive Care/Cascade Health Alliance,7/16/2026,7:45AM,10:00AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
+24758,SEIU Meeting,,College Union Mt. McLoughlin,,SEIU Local 503,7/16/2026,12:00PM,1:00PM,FALSE,TRUE,Meeting,Darryn Stevens,darryn.stevens@oit.edu,5-1815,TRUE,FALSE,Active,Meeting
+24858,Clery Compliance Meeting,,College Union Sunset,,Campus Safety,7/23/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24820,Cascade Board Meeting,,College Union Mt. McLoughlin,,Cascade Comprehensive Care/Cascade Health Alliance,8/27/2026,6:40AM,8:30AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
+24858,Clery Compliance Meeting,,College Union Sunset,,Campus Safety,8/27/2026,2:00PM,3:30PM,FALSE,TRUE,Meeting,Chris Bowman,Christopher.Bowman@oit.edu,5-1111,TRUE,FALSE,Active,Meeting
+24819,Cascade Staff Meeting,,College Union Mt. Mazama,,Cascade Comprehensive Care/Cascade Health Alliance,10/15/2026,7:45AM,10:00AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
+24199,Benefits Fair,,College Union Crater Lake Complex,,Human Resources,10/21/2026,8:00AM,10:00PM,FALSE,TRUE,Meeting,Sarah Henderson Wong,sarah.hendersonwong@oit.edu,5-1028,FALSE,FALSE,Active,Meeting
+24820,Cascade Board Meeting,,College Union Mt. McLoughlin,,Cascade Comprehensive Care/Cascade Health Alliance,10/22/2026,6:40AM,8:30AM,FALSE,TRUE,Meeting,Leslee Devol,lesleed@cascadecomp.com,541-851-2042,TRUE,FALSE,Active,Meeting
