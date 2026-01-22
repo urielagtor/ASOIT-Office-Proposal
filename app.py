@@ -316,7 +316,7 @@ with tab2:
     if dept_filter:
         gantt_base = gantt_base[gantt_base["Department"].isin(dept_filter)]
 
-    gantt_days = (
+       gantt_days = (
         gantt_base["EventDate"]
         .dropna()
         .dt.date
@@ -327,15 +327,27 @@ with tab2:
     if len(gantt_days) == 0:
         st.info("No dates available for the current Location/Department filters.")
     else:
-        gantt_day = st.selectbox(
+        min_gantt_day = gantt_days.min()
+        max_gantt_day = gantt_days.max()
+
+        # Calendar dropdown picker (single day)
+        picked_day = st.date_input(
             "Pick a single day for the Gantt chart",
-            options=list(gantt_days),
-            index=len(gantt_days) - 1,   # defaults to the most recent day available
-            key="gantt_day"
+            value=max_gantt_day,          # default to most recent day in data
+            min_value=min_gantt_day,
+            max_value=max_gantt_day,
+            key="gantt_day_picker"
         )
 
+        # If user picks a day that has no events, snap to nearest available day
+        if picked_day not in set(gantt_days):
+            gantt_days_sorted = sorted(gantt_days)
+            # nearest date by absolute distance
+            picked_day = min(gantt_days_sorted, key=lambda d: abs(d - picked_day))
+            st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
+
         gantt_src = gantt_base[
-            gantt_base["EventDate"].dt.date == gantt_day
+            gantt_base["EventDate"].dt.date == picked_day
         ].dropna(subset=["Location", "StartDT", "EndDT"]).copy()
 
         if gantt_src.empty:
