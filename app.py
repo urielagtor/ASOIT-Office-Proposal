@@ -367,7 +367,7 @@ with tab2:
                 y="Location",
                 color=None if color_field == "(none)" else color_field,
                 hover_data=["Title", "Department", "Status", "StartDT", "EndDT"],
-                title=f"Reservation Timeline by Room — {gantt_day}"
+                title=f"Reservation Timeline by Room — {picked_day}"
             )
 
             fig_gantt.update_yaxes(autorange="reversed", title="Room / Location")
