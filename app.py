@@ -1,45 +1,52 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-from datetime import datetime
+import plotly.express as px
 
 # -----------------------------
-# Oregon Tech colors (primary)
+# Oregon Tech Colors (Official)
 # -----------------------------
-OT_BLUE = "#003767"   # Blue
-OT_GOLD = "#FFD24F"   # Gold
-OT_DARK = "#0B1F3A"
-OT_LIGHT = "#F6F8FB"
-OT_GRAY = "#6B7280"
+OT_BLUE = "#003767"
+OT_GOLD = "#FFD24F"
+WHITE = "#FFFFFF"
+GRAY_BG = "#F6F8FB"
+GRAY_TEXT = "#475569"
 
-# A simple OIT-friendly palette (blue/gold + neutrals)
-PALETTE = [OT_BLUE, OT_GOLD, "#1F4E79", "#D4A82A", "#2E2E2E", "#6B7280", "#B0B7C3", "#7A5C00"]
-
-REQUIRED_COLUMNS = [
-    "EventId", "Title", "Location", "Department", "EventDate", "StartTime", "EndTime",
-    "IsAllDayEvent", "IsTimedEvent", "EventType", "ContactName", "ContactEmail",
-    "ContactPhone", "IsReOccurring", "IsOnMultipleCalendars", "Status", "EventTypeName"
+# A clean extended palette (blue/gold + muted supporting colors)
+OIT_PALETTE = [
+    OT_BLUE, OT_GOLD,
+    "#154574",  # secondary blue
+    "#DA0000",  # secondary red
+    "#334155",  # slate
+    "#64748B",  # gray
+    "#0F766E",  # teal
+    "#7C3AED",  # purple
+    "#C2410C",  # orange
+    "#16A34A",  # green
 ]
 
 st.set_page_config(page_title="Room Reservations Dashboard", layout="wide")
 
 # -----------------------------
-# CSS (Oregon Tech feel)
+# CSS Styling
 # -----------------------------
 st.markdown(
     f"""
     <style>
-      .stApp {{ background: {OT_LIGHT}; }}
-      .block-container {{ padding-top: 1.2rem; }}
-      h1,h2,h3 {{ color: {OT_BLUE} !important; }}
-
+      .stApp {{
+        background: {GRAY_BG};
+      }}
+      .block-container {{
+        padding-top: 1.2rem;
+      }}
+      h1, h2, h3 {{
+        color: {OT_BLUE};
+      }}
       section[data-testid="stSidebar"] {{
-        background: white;
+        background: {WHITE};
         border-right: 4px solid {OT_GOLD};
       }}
-
       div[data-testid="stMetric"] {{
-        background: white;
+        background: {WHITE};
         border: 1px solid #E5E7EB;
         border-left: 6px solid {OT_GOLD};
         border-radius: 14px;
@@ -53,233 +60,237 @@ st.markdown(
 st.title("Room Reservations Dashboard")
 
 # -----------------------------
-# Load + Normalize
+# Load Reservations
 # -----------------------------
-def load_reservations(upload) -> pd.DataFrame:
-    # If no upload, try local file name "reservations.csv"
+def load_reservations(upload):
     if upload is None:
         try:
             return pd.read_csv("reservations.csv")
         except Exception:
             return None
+    return pd.read_csv(upload)
 
-    name = upload.name.lower()
-    if name.endswith(".csv"):
-        return pd.read_csv(upload)
-    if name.endswith((".xlsx", ".xls")):
-        return pd.read_excel(upload)
+df_raw = load_reservations(st.sidebar.file_uploader("Upload reservations.csv", type=["csv"]))
 
-    raise ValueError("Please upload a CSV or Excel file.")
-
-def normalize(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    df.columns = [c.strip() for c in df.columns]
-
-    missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
-    if missing:
-        st.warning(f"Missing columns (dashboard will still load): {missing}")
-
-    # Dates like 9/3/2025
-    if "EventDate" in df.columns:
-        df["EventDate"] = pd.to_datetime(df["EventDate"], errors="coerce").dt.date
-
-    # Times like 9:00AM
-    for col in ["StartTime", "EndTime"]:
-        if col in df.columns:
-            df[col] = pd.to_datetime(df[col], format="%I:%M%p", errors="coerce").dt.time
-
-    # Derived time buckets
-    if "StartTime" in df.columns:
-        df["StartHour"] = df["StartTime"].apply(lambda t: t.hour if pd.notna(t) and t is not None else None)
-
-    if "EventDate" in df.columns:
-        df["DayOfWeek"] = pd.to_datetime(df["EventDate"], errors="coerce").dt.day_name()
-
-    return df
-
-def pie(series: pd.Series, title: str, top_n: int = 12):
-    fig, ax = plt.subplots()
-    s = series.dropna()
-    if s.empty:
-        ax.text(0.5, 0.5, "No data", ha="center", va="center")
-        ax.axis("off")
-        st.pyplot(fig)
-        return
-
-    counts = s.value_counts().head(top_n)
-    colors = (PALETTE * ((len(counts) // len(PALETTE)) + 1))[: len(counts)]
-    ax.pie(counts.values, labels=counts.index, autopct="%1.0f%%", startangle=90, colors=colors)
-    ax.set_title(title)
-    st.pyplot(fig)
-
-def bar_counts(counts: pd.Series, title: str, xlabel: str = "", ylabel: str = "Reservations"):
-    fig, ax = plt.subplots()
-    ax.bar(counts.index.astype(str), counts.values, color=OT_BLUE)
-    ax.set_title(title)
-    if xlabel:
-        ax.set_xlabel(xlabel)
-    ax.set_ylabel(ylabel)
-    ax.tick_params(axis="x", rotation=45)
-    st.pyplot(fig)
-
-# -----------------------------
-# Sidebar controls
-# -----------------------------
-with st.sidebar:
-    st.header("Data")
-    upload = st.file_uploader("Upload reservations.csv (or Excel)", type=["csv", "xlsx", "xls"])
-    st.caption("Tip: If you run this app in a folder with a file named **reservations.csv**, it will auto-load.")
-
-df_raw = load_reservations(upload)
 if df_raw is None:
-    st.info('Upload your CSV, or place a file named **reservations.csv** next to `app.py`.')
+    st.info("Upload your file OR place a file named **reservations.csv** next to app.py.")
     st.stop()
 
-df = normalize(df_raw)
+df = df_raw.copy()
+df.columns = [c.strip() for c in df.columns]
 
-# Basic sanity check
-if "EventId" not in df.columns:
-    st.error("This file doesn't look like the reservations export (missing EventId).")
-    st.stop()
-
-with st.sidebar:
-    st.divider()
-    st.header("Filters")
-
-    # Date range
-    if "EventDate" in df.columns and df["EventDate"].notna().any():
-        min_d = min(df["EventDate"].dropna())
-        max_d = max(df["EventDate"].dropna())
-        d_start, d_end = st.date_input("Event date range", value=(min_d, max_d))
-    else:
-        d_start = d_end = None
-
-    def uniq(col):
-        if col not in df.columns:
-            return []
-        return sorted(df[col].dropna().unique().tolist())
-
-    locations = st.multiselect("Location", options=uniq("Location"))
-    depts = st.multiselect("Department", options=uniq("Department"))
-    statuses = st.multiselect("Status", options=uniq("Status"))
-    event_type_names = st.multiselect("EventTypeName", options=uniq("EventTypeName"))
-
-    search_text = st.text_input("Search (Title / Contact / Email)", value="").strip()
+# Parse Date + Time
+df["EventDate"] = pd.to_datetime(df["EventDate"], errors="coerce")
+df["StartTime_dt"] = pd.to_datetime(df["StartTime"], format="%I:%M%p", errors="coerce")
+df["StartHour"] = df["StartTime_dt"].dt.hour
+df["DayOfWeek"] = df["EventDate"].dt.day_name()
 
 # -----------------------------
-# Apply filters
+# Sidebar Filters
 # -----------------------------
-f = df.copy()
+st.sidebar.header("Filters")
 
-if d_start and d_end and "EventDate" in f.columns:
-    f = f[(f["EventDate"].notna()) & (f["EventDate"] >= d_start) & (f["EventDate"] <= d_end)]
+min_date = df["EventDate"].min()
+max_date = df["EventDate"].max()
 
-if locations and "Location" in f.columns:
-    f = f[f["Location"].isin(locations)]
+date_range = st.sidebar.date_input(
+    "Date Range",
+    value=(min_date.date(), max_date.date())
+)
 
-if depts and "Department" in f.columns:
-    f = f[f["Department"].isin(depts)]
+d_start, d_end = date_range
 
-if statuses and "Status" in f.columns:
-    f = f[f["Status"].isin(statuses)]
+filtered = df[
+    (df["EventDate"].dt.date >= d_start) &
+    (df["EventDate"].dt.date <= d_end)
+].copy()
 
-if event_type_names and "EventTypeName" in f.columns:
-    f = f[f["EventTypeName"].isin(event_type_names)]
+loc_options = sorted(filtered["Location"].dropna().unique())
+dept_options = sorted(filtered["Department"].dropna().unique())
 
-if search_text:
-    mask = False
-    for col in ["Title", "ContactName", "ContactEmail"]:
-        if col in f.columns:
-            mask = mask | f[col].astype(str).str.lower().str.contains(search_text.lower(), na=False)
-    f = f[mask]
+loc_filter = st.sidebar.multiselect("Location", options=loc_options)
+dept_filter = st.sidebar.multiselect("Department", options=dept_options)
+
+if loc_filter:
+    filtered = filtered[filtered["Location"].isin(loc_filter)]
+if dept_filter:
+    filtered = filtered[filtered["Department"].isin(dept_filter)]
 
 # -----------------------------
 # KPIs
 # -----------------------------
 st.subheader("Overview")
 
-m1, m2, m3, m4 = st.columns(4)
-m1.metric("Total reservations", len(f))
-m2.metric("Unique locations", f["Location"].nunique() if "Location" in f.columns else 0)
-m3.metric("Unique departments", f["Department"].nunique() if "Department" in f.columns else 0)
-m4.metric("Active (status)", int((f["Status"].astype(str).str.lower() == "active").sum()) if "Status" in f.columns else 0)
+c1, c2, c3, c4 = st.columns(4)
+c1.metric("Total Reservations", len(filtered))
+c2.metric("Locations", filtered["Location"].nunique())
+c3.metric("Departments", filtered["Department"].nunique())
+c4.metric("Avg / Day", round(len(filtered) / max(1, filtered["EventDate"].dt.date.nunique()), 1))
 
 st.divider()
 
 # -----------------------------
-# Charts (tabs)
+# Helper: Top N + "Other"
+# -----------------------------
+def top_n_with_other(series: pd.Series, top_n: int = 8):
+    vc = series.value_counts(dropna=True)
+    top = vc.head(top_n)
+    other_count = vc.iloc[top_n:].sum()
+    if other_count > 0:
+        top["Other"] = other_count
+    return top.reset_index().rename(columns={"index": "Category", 0: "Count"})
+
+# -----------------------------
+# Charts
 # -----------------------------
 tab1, tab2, tab3 = st.tabs(["Distribution", "Time Demand", "Details"])
 
 with tab1:
-    c1, c2 = st.columns(2)
-    with c1:
-        pie(f["Location"] if "Location" in f.columns else pd.Series(dtype=object),
-            "Total Reservations by Location (Pie)")
-    with c2:
-        pie(f["Department"] if "Department" in f.columns else pd.Series(dtype=object),
-            "Total Reservations by Department (Pie)")
+    st.subheader("Distribution")
 
-    st.subheader("Department Reservations by Location")
-    if "Location" in f.columns and "Department" in f.columns and not f.empty:
-        pivot = pd.pivot_table(
-            f, index="Location", columns="Department", values="EventId",
-            aggfunc="count", fill_value=0
+    left, right = st.columns(2)
+
+    with left:
+        loc_counts = top_n_with_other(filtered["Location"], top_n=8)
+        fig_loc = px.pie(
+            loc_counts,
+            names="Category",
+            values="Count",
+            title="Total Reservations by Location",
+            color_discrete_sequence=[OT_BLUE, OT_GOLD, "#154574", "#64748B", "#DA0000", "#0F766E", "#334155", "#C2410C", "#7C3AED"],
+            hole=0.35
         )
-        st.bar_chart(pivot)  # Streamlit handles stacked-ish display per column
-    else:
-        st.info("Need Location + Department data for this chart.")
+        fig_loc.update_traces(textposition="inside", textinfo="percent+label")
+        st.plotly_chart(fig_loc, use_container_width=True)
+
+    with right:
+        dept_counts = top_n_with_other(filtered["Department"], top_n=8)
+        fig_dept = px.pie(
+            dept_counts,
+            names="Category",
+            values="Count",
+            title="Total Reservations by Department",
+            color_discrete_sequence=[OT_BLUE, OT_GOLD, "#154574", "#64748B", "#DA0000", "#0F766E", "#334155", "#C2410C", "#7C3AED"],
+            hole=0.35
+        )
+        fig_dept.update_traces(textposition="inside", textinfo="percent+label")
+        st.plotly_chart(fig_dept, use_container_width=True)
+
+    st.subheader("Reservations by Location (Stacked by Department)")
+
+    # Instead of 25 rainbow categories, we limit to top depts
+    top_departments = filtered["Department"].value_counts().head(8).index.tolist()
+    compact = filtered.copy()
+    compact["DeptGroup"] = compact["Department"].apply(lambda x: x if x in top_departments else "Other")
+
+    stacked = (
+        compact.groupby(["Location", "DeptGroup"])
+        .size()
+        .reset_index(name="Reservations")
+    )
+
+    fig_stack = px.bar(
+        stacked,
+        x="Location",
+        y="Reservations",
+        color="DeptGroup",
+        title="Department Reservations by Location (Top 8 + Other)",
+        barmode="stack",
+        color_discrete_sequence=OIT_PALETTE
+    )
+    fig_stack.update_layout(
+        legend_title_text="Department",
+        xaxis_title="Location",
+        yaxis_title="Reservations",
+    )
+    st.plotly_chart(fig_stack, use_container_width=True)
 
 with tab2:
-    st.subheader("Most Reserved Times (Start Hour)")
+    st.subheader("Time Demand")
 
-    # Exclude all-day from time charts (your file has none, but safe)
-    time_df = f.copy()
-    if "IsAllDayEvent" in time_df.columns:
-        time_df = time_df[time_df["IsAllDayEvent"] == False]
+    # Reservations by hour
+    hour_counts = (
+        filtered.dropna(subset=["StartHour"])
+        .groupby("StartHour")
+        .size()
+        .reset_index(name="Reservations")
+        .sort_values("StartHour")
+    )
 
-    if "StartHour" in time_df.columns and time_df["StartHour"].notna().any():
-        hour_counts = time_df["StartHour"].value_counts().sort_index()
-        fig, ax = plt.subplots()
-        ax.bar(hour_counts.index.astype(int), hour_counts.values, color=OT_BLUE)
-        ax.set_title("Reservations by Start Hour")
-        ax.set_xlabel("Hour of Day (0–23)")
-        ax.set_ylabel("Reservations")
-        st.pyplot(fig)
-    else:
-        st.info("No StartTime data available to chart.")
+    fig_hours = px.bar(
+        hour_counts,
+        x="StartHour",
+        y="Reservations",
+        title="Most Reserved Start Times (by Hour)",
+        color_discrete_sequence=[OT_BLUE]
+    )
+    fig_hours.update_layout(
+        xaxis_title="Hour of Day (0–23)",
+        yaxis_title="Reservations"
+    )
+    st.plotly_chart(fig_hours, use_container_width=True)
 
-    st.subheader("Busiest Days of Week")
-    if "DayOfWeek" in time_df.columns and time_df["DayOfWeek"].notna().any():
-        # Order days Mon..Sun
-        order = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-        day_counts = time_df["DayOfWeek"].value_counts().reindex(order).dropna()
-        bar_counts(day_counts, "Reservations by Day of Week", xlabel="Day")
-    else:
-        st.info("No EventDate data available to chart.")
+    # Day of week
+    order = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    dow_counts = (
+        filtered.dropna(subset=["DayOfWeek"])
+        .groupby("DayOfWeek")
+        .size()
+        .reindex(order)
+        .reset_index(name="Reservations")
+    )
 
-    st.subheader("Hot Rooms by Time (Location × Start Hour)")
-    if "Location" in time_df.columns and "StartHour" in time_df.columns and not time_df.empty:
-        heat = pd.pivot_table(
-            time_df, index="Location", columns="StartHour", values="EventId",
-            aggfunc="count", fill_value=0
-        ).sort_index(axis=1)
-        st.caption("Counts of reservations by room and start hour.")
-        st.dataframe(heat, use_container_width=True)
-    else:
-        st.info("Need Location + StartTime for this view.")
+    fig_dow = px.bar(
+        dow_counts,
+        x="DayOfWeek",
+        y="Reservations",
+        title="Reservations by Day of Week",
+        color_discrete_sequence=[OT_GOLD]
+    )
+    fig_dow.update_layout(
+        xaxis_title="Day",
+        yaxis_title="Reservations"
+    )
+    st.plotly_chart(fig_dow, use_container_width=True)
+
+    # Heatmap: Location x StartHour
+    st.subheader("Room Demand Heatmap (Location × Hour)")
+
+    heat = (
+        filtered.dropna(subset=["Location", "StartHour"])
+        .groupby(["Location", "StartHour"])
+        .size()
+        .reset_index(name="Count")
+    )
+
+    fig_heat = px.density_heatmap(
+        heat,
+        x="StartHour",
+        y="Location",
+        z="Count",
+        color_continuous_scale=["#EAF2FF", OT_BLUE],
+        title="Heatmap of Reservations"
+    )
+    fig_heat.update_layout(
+        xaxis_title="Start Hour",
+        yaxis_title="Location"
+    )
+    st.plotly_chart(fig_heat, use_container_width=True)
 
 with tab3:
-    st.subheader("Filtered Reservations (Detail)")
-    preferred = ["EventDate","StartTime","EndTime","Title","Location","Department","Status",
-                 "ContactName","ContactEmail","EventTypeName","EventId"]
-    cols = [c for c in preferred if c in f.columns] + [c for c in f.columns if c not in preferred]
-    st.dataframe(f[cols].reset_index(drop=True), use_container_width=True, height=520)
+    st.subheader("Filtered Reservation Records")
 
-    csv_bytes = f[cols].to_csv(index=False).encode("utf-8")
+    show_cols = [
+        "EventDate", "StartTime", "EndTime", "Title", "Location",
+        "Department", "Status", "ContactName", "ContactEmail"
+    ]
+    show_cols = [c for c in show_cols if c in filtered.columns]
+
+    st.dataframe(filtered[show_cols].sort_values("EventDate"), use_container_width=True, height=520)
+
     st.download_button(
-        "Download filtered results (CSV)",
-        data=csv_bytes,
-        file_name="filtered_room_reservations.csv",
-        mime="text/csv",
+        "Download Filtered CSV",
+        data=filtered.to_csv(index=False).encode("utf-8"),
+        file_name="filtered_reservations.csv",
+        mime="text/csv"
     )
