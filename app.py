@@ -316,7 +316,7 @@ with tab2:
     if dept_filter:
         gantt_base = gantt_base[gantt_base["Department"].isin(dept_filter)]
 
-       gantt_days = (
+    gantt_days = (
         gantt_base["EventDate"]
         .dropna()
         .dt.date
