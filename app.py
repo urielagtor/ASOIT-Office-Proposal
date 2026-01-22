@@ -86,6 +86,21 @@ df["StartTime_dt"] = pd.to_datetime(df["StartTime"], format="%I:%M%p", errors="c
 df["StartHour"] = df["StartTime_dt"].dt.hour
 df["DayOfWeek"] = df["EventDate"].dt.day_name()
 
+# Parse EndTime + build datetime ranges for timeline (Gantt)
+df["EndTime_dt"] = pd.to_datetime(df.get("EndTime"), format="%I:%M%p", errors="coerce")
+
+# Combine EventDate + time into full datetimes
+df["StartDT"] = df["EventDate"].dt.normalize() + pd.to_timedelta(df["StartTime_dt"].dt.hour.fillna(0), unit="h") \
+               + pd.to_timedelta(df["StartTime_dt"].dt.minute.fillna(0), unit="m")
+
+df["EndDT"] = df["EventDate"].dt.normalize() + pd.to_timedelta(df["EndTime_dt"].dt.hour.fillna(0), unit="h") \
+             + pd.to_timedelta(df["EndTime_dt"].dt.minute.fillna(0), unit="m")
+
+# If an event ends after midnight (end < start), bump EndDT by 1 day
+mask_cross_midnight = df["StartDT"].notna() & df["EndDT"].notna() & (df["EndDT"] < df["StartDT"])
+df.loc[mask_cross_midnight, "EndDT"] = df.loc[mask_cross_midnight, "EndDT"] + pd.Timedelta(days=1)
+
+
 # -----------------------------
 # Sidebar Filters
 # -----------------------------
@@ -282,6 +297,44 @@ with tab2:
         yaxis_title="Location"
     )
     st.plotly_chart(fig_heat, use_container_width=True)
+
+        st.subheader("Reservations Gantt (Time × Room)")
+
+    gantt_src = filtered.dropna(subset=["Location", "StartDT", "EndDT"]).copy()
+
+    if gantt_src.empty:
+        st.info("No reservations with valid StartTime and EndTime in the current filters.")
+    else:
+        # Optional: let user pick how bars are colored
+        color_field_options = [c for c in ["Department", "Status"] if c in gantt_src.columns]
+        color_field = st.selectbox("Color bars by", options=color_field_options or ["(none)"])
+
+        fig_gantt = px.timeline(
+            gantt_src.sort_values(["Location", "StartDT"]),
+            x_start="StartDT",
+            x_end="EndDT",
+            y="Location",
+            color=None if color_field == "(none)" else color_field,
+            hover_data={
+                "Title": True if "Title" in gantt_src.columns else False,
+                "Department": True if "Department" in gantt_src.columns else False,
+                "Status": True if "Status" in gantt_src.columns else False,
+                "StartDT": True,
+                "EndDT": True,
+            },
+            title="Reservation Timeline by Room"
+        )
+
+        # Make it read like a schedule
+        fig_gantt.update_yaxes(autorange="reversed", title="Room / Location")
+        fig_gantt.update_xaxes(title="Time")
+        fig_gantt.update_layout(
+            legend_title_text=color_field if color_field != "(none)" else "",
+            margin=dict(l=10, r=10, t=50, b=10),
+        )
+
+        st.plotly_chart(fig_gantt, use_container_width=True)
+
 
 with tab3:
     st.subheader("Filtered Reservation Records")
