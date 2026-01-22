@@ -331,13 +331,28 @@ with tab2:
         max_gantt_day = gantt_days.max()
 
         # Calendar dropdown picker (single day)
+        today = datetime.date.today()
+
+        # Default = today if it's in range, otherwise clamp to min/max
+        default_day = today
+        if today < min_gantt_day:
+            default_day = min_gantt_day
+        elif today > max_gantt_day:
+            default_day = max_gantt_day
+        
         picked_day = st.date_input(
             "Pick a single day for the Gantt chart",
-            value=max_gantt_day,          # default to most recent day in data
+            value=default_day,
             min_value=min_gantt_day,
             max_value=max_gantt_day,
             key="gantt_day_picker"
         )
+
+# If user picks a day with no events, snap to nearest available day
+if picked_day not in set(gantt_days):
+    gantt_days_sorted = sorted(gantt_days)
+    picked_day = min(gantt_days_sorted, key=lambda d: abs(d - picked_day))
+    st.caption(f"No events on the selected day; showing nearest day with events: {picked_day}")
 
         # If user picks a day that has no events, snap to nearest available day
         if picked_day not in set(gantt_days):
